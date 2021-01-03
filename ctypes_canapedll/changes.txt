@@ -1,0 +1,38 @@
+struct: changed enum types to "enum typename instnance"
+remove MATLABAPI #ifdef blocks
+remove #pragma warning
+changed BOOL to int ?!?
+changed BYTE to unsigned char
+added struct inside struct
+added #include <stdbool.h>
+removed all comments
+/\*.*\*/
+/\*([^*]|[\r\n]|(\*([^/]|[\r\n])))*\*/
+//.*
+
+''''''''''''''''''''''''''''''''''''''''''''''''''
+ganz wichtig :D
+typedef tAsap3Hdl *TAsap3Hdl;
+=> typedef struct tAsap3Hdl *TAsap3Hdl;
+''''''''''''''''''''''''''''''''''''''''''''''''''
+
+
+TEST 1 successfull
+
+PS C:\Users\sim\Desktop\canapePY_COM\ctypes_canapedll> python
+Python 3.8.3 (tags/v3.8.3:6f8c832, May 13 2020, 22:37:02) [MSC v.1924 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+
+>>> import ctypes
+>>> import CANapAPI   
+>>> dll_version_t = CANapAPI.version_t(0,0,0,b'null',0) 
+>>> _lib = CANapAPI._libs['CANapAPI64.dll']             
+>>> _ = _lib.Asap3GetVersion(ctypes.byref(dll_version_t))  
+>>> dll_version_t.osVersion  
+b'Windows95/WindowsNT'
+>>> _
+32721921
+>>> _lib.Asap3GetVersion.restype = ctypes.c_bool 
+>>> _ = _lib.Asap3GetVersion(ctypes.byref(dll_version_t))  
+>>> _
+True
