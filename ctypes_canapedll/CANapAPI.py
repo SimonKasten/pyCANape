@@ -818,73 +818,73 @@ _libs["CANapAPI64.dll"] = load_library("CANapAPI64.dll")
 
 # No modules
 
-DWORD = c_ulong# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 4
+DWORD = c_ulong# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 4
 
-UINT = c_uint# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 5
+UINT = c_uint# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 5
 
-enum_TApplicationType = c_int# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 144
+enum_TApplicationType = c_int# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 144
 
-eUNDEFINED = 0# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 144
+eUNDEFINED = 0# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 144
 
-eCANAPE = 1# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 144
+eCANAPE = 1# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 144
 
-eAPPLOCATION = 3# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 144
+eAPPLOCATION = 3# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 144
 
-enum_TScriptStatus = c_int# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 150
+enum_TScriptStatus = c_int# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 150
 
-eTScrReady = 1# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 150
+eTScrReady = 1# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 150
 
-eTScrStarting = (eTScrReady + 1)# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 150
+eTScrStarting = (eTScrReady + 1)# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 150
 
-eTScrRunning = (eTScrStarting + 1)# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 150
+eTScrRunning = (eTScrStarting + 1)# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 150
 
-eTScrSleeping = (eTScrRunning + 1)# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 150
+eTScrSleeping = (eTScrRunning + 1)# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 150
 
-eTScrSuspended = (eTScrSleeping + 1)# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 150
+eTScrSuspended = (eTScrSleeping + 1)# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 150
 
-eTScrTerminated = (eTScrSuspended + 1)# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 150
+eTScrTerminated = (eTScrSuspended + 1)# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 150
 
-eTScrFinishedReturn = (eTScrTerminated + 1)# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 150
+eTScrFinishedReturn = (eTScrTerminated + 1)# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 150
 
-eTScrFinishedCancel = (eTScrFinishedReturn + 1)# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 150
+eTScrFinishedCancel = (eTScrFinishedReturn + 1)# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 150
 
-eTScrFailure = (eTScrFinishedCancel + 1)# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 150
+eTScrFailure = (eTScrFinishedCancel + 1)# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 150
 
-eTScrTimeout = (eTScrFailure + 1)# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 150
+eTScrTimeout = (eTScrFailure + 1)# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 150
 
-eTScrDelayedCompiling = (eTScrTimeout + 1)# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 150
+eTScrDelayedCompiling = (eTScrTimeout + 1)# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 150
 
-eTScrException = (eTScrDelayedCompiling + 1)# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 150
+eTScrException = (eTScrDelayedCompiling + 1)# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 150
 
-enum_e_RamMode = c_int# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 166
+enum_e_RamMode = c_int# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 166
 
-e_TR_MODE_RAM = 0# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 166
+e_TR_MODE_RAM = 0# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 166
 
-e_TR_MODE_ROM = 1# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 166
+e_TR_MODE_ROM = 1# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 166
 
-enum_TRecorderType = c_int# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 171
+enum_TRecorderType = c_int# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 171
 
-eTRecorderTypeMDF = 0# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 171
+eTRecorderTypeMDF = 0# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 171
 
-eTRecorderTypeILinkRT = 1# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 171
+eTRecorderTypeILinkRT = 1# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 171
 
-eTRecorderTypeBLF = 2# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 171
+eTRecorderTypeBLF = 2# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 171
 
-enum_ASAP3_EVENT_CODE = c_int# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 177
+enum_ASAP3_EVENT_CODE = c_int# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 177
 
-et_ON_DATA_ACQ_START = 0# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 177
+et_ON_DATA_ACQ_START = 0# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 177
 
-et_ON_DATA_ACQ_STOP = (et_ON_DATA_ACQ_START + 1)# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 177
+et_ON_DATA_ACQ_STOP = (et_ON_DATA_ACQ_START + 1)# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 177
 
-et_ON_BEFORE_DATA_ACQ_START = (et_ON_DATA_ACQ_STOP + 1)# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 177
+et_ON_BEFORE_DATA_ACQ_START = (et_ON_DATA_ACQ_STOP + 1)# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 177
 
-et_ON_CLOSEPROJECT = (et_ON_BEFORE_DATA_ACQ_START + 1)# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 177
+et_ON_CLOSEPROJECT = (et_ON_BEFORE_DATA_ACQ_START + 1)# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 177
 
-et_ON_OPENPROJECT = (et_ON_CLOSEPROJECT + 1)# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 177
+et_ON_OPENPROJECT = (et_ON_CLOSEPROJECT + 1)# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 177
 
-et_ON_CLOSECANAPE = (et_ON_OPENPROJECT + 1)# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 177
+et_ON_CLOSECANAPE = (et_ON_OPENPROJECT + 1)# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 177
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 186
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 186
 class struct_TApplicationID(Structure):
     pass
 
@@ -898,73 +898,73 @@ struct_TApplicationID._fields_ = [
     ('tApplicationPath', c_char * int(260)),
 ]
 
-enum_TFormat = c_int# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 191
+enum_TFormat = c_int# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 191
 
-ECU_INTERNAL = 0# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 191
+ECU_INTERNAL = 0# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 191
 
-PHYSICAL_REPRESENTATION = 1# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 191
+PHYSICAL_REPRESENTATION = 1# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 191
 
-enum_TValueType = c_int# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 196
+enum_TValueType = c_int# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 196
 
-VALUE = 0# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 196
+VALUE = 0# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 196
 
-CURVE = 1# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 196
+CURVE = 1# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 196
 
-MAP = 2# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 196
+MAP = 2# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 196
 
-AXIS = 3# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 196
+AXIS = 3# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 196
 
-ASCII = 4# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 196
+ASCII = 4# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 196
 
-VAL_BLK = 5# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 196
+VAL_BLK = 5# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 196
 
-enum_TObjectType = c_int# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 205
+enum_TObjectType = c_int# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 205
 
-OTT_MEASURE = 0# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 205
+OTT_MEASURE = 0# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 205
 
-OTT_CALIBRATE = 1# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 205
+OTT_CALIBRATE = 1# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 205
 
-OTT_UNKNOWN = 2# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 205
+OTT_UNKNOWN = 2# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 205
 
-enum_eServiceStates = c_int# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 211
+enum_eServiceStates = c_int# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 211
 
-e_Created = 10# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 211
+e_Created = 10# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 211
 
-e_Running = (e_Created + 10)# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 211
+e_Running = (e_Created + 10)# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 211
 
-e_Finished = (e_Running + 10)# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 211
+e_Finished = (e_Running + 10)# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 211
 
-e_TimeOut = (e_Finished + 10)# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 211
+e_TimeOut = (e_Finished + 10)# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 211
 
-TAsap3DiagHdl = c_ulong# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 218
+TAsap3DiagHdl = c_ulong# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 218
 
-enum_EnRecorderState = c_int# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 220
+enum_EnRecorderState = c_int# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 220
 
-e_RecConfigure = 0# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 220
+e_RecConfigure = 0# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 220
 
-e_RecActive = (e_RecConfigure + 1)# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 220
+e_RecActive = (e_RecConfigure + 1)# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 220
 
-e_RecRunning = (e_RecActive + 1)# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 220
+e_RecRunning = (e_RecActive + 1)# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 220
 
-e_RecPaused = (e_RecRunning + 1)# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 220
+e_RecPaused = (e_RecRunning + 1)# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 220
 
-e_Suspended = (e_RecPaused + 1)# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 220
+e_Suspended = (e_RecPaused + 1)# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 220
 
-enum_EnParamType = c_int# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 228
+enum_EnParamType = c_int# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 228
 
-ParamSigned = 1# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 228
+ParamSigned = 1# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 228
 
-ParamDouble = 2# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 228
+ParamDouble = 2# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 228
 
-ParamBCD = 3# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 228
+ParamBCD = 3# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 228
 
-ParamUnsigned = 4# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 228
+ParamUnsigned = 4# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 228
 
-ParamFloat = 5# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 228
+ParamFloat = 5# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 228
 
-ParamAutoDetect = 6# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 228
+ParamAutoDetect = 6# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 228
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 237
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 237
 class struct_DiagJobResponse(Structure):
     pass
 
@@ -978,7 +978,7 @@ struct_DiagJobResponse._fields_ = [
     ('job_responseValue', c_double),
 ]
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 246
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 246
 class union_PValues(Union):
     pass
 
@@ -996,7 +996,7 @@ union_PValues._fields_ = [
     ('DVal', c_double),
 ]
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 242
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 242
 class struct_DiagNumericParameter(Structure):
     pass
 
@@ -1015,7 +1015,7 @@ struct_DiagNumericParameter._fields_ = [
     ('Values', union_PValues),
 ]
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 255
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 255
 class struct_DiagNotificationStruct(Structure):
     pass
 
@@ -1031,7 +1031,7 @@ struct_DiagNotificationStruct._fields_ = [
     ('PrivateData', POINTER(None)),
 ]
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 261
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 261
 class struct_TMeasurementListEntry(Structure):
     pass
 
@@ -1051,7 +1051,7 @@ struct_TMeasurementListEntry._fields_ = [
     ('ObjectName', String),
 ]
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 273
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 273
 class struct_MeasurementListEntries(Structure):
     pass
 
@@ -1065,7 +1065,7 @@ struct_MeasurementListEntries._fields_ = [
     ('Entries', POINTER(POINTER(struct_TMeasurementListEntry))),
 ]
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 288
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 288
 class struct_DBObjectInfo(Structure):
     pass
 
@@ -1091,9 +1091,9 @@ struct_DBObjectInfo._fields_ = [
     ('unit', c_char * int(260)),
 ]
 
-DBObjectInfo = struct_DBObjectInfo# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 288
+DBObjectInfo = struct_DBObjectInfo# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 288
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 289
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 289
 class struct_DBFileInfo(Structure):
     pass
 
@@ -1109,7 +1109,7 @@ struct_DBFileInfo._fields_ = [
     ('type', c_ubyte),
 ]
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 295
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 295
 class struct_TLayoutCoeffs(Structure):
     pass
 
@@ -1137,7 +1137,7 @@ struct_TLayoutCoeffs._fields_ = [
     ('FakWy', c_short),
 ]
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 307
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 307
 class struct_SecProfileEntry(Structure):
     pass
 
@@ -1153,7 +1153,7 @@ struct_SecProfileEntry._fields_ = [
     ('mDescription', c_char * int(260)),
 ]
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 318
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 318
 class struct_anon_1(Structure):
     pass
 
@@ -1167,7 +1167,7 @@ struct_anon_1._fields_ = [
     ('value', c_double),
 ]
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 322
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 322
 class struct_anon_2(Structure):
     pass
 
@@ -1185,7 +1185,7 @@ struct_anon_2._fields_ = [
     ('oAxis', c_ulong),
 ]
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 332
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 332
 class struct_anon_3(Structure):
     pass
 
@@ -1203,7 +1203,7 @@ struct_anon_3._fields_ = [
     ('oAscii', c_ulong),
 ]
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 342
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 342
 class struct_anon_4(Structure):
     pass
 
@@ -1225,7 +1225,7 @@ struct_anon_4._fields_ = [
     ('oValues', c_ulong),
 ]
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 358
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 358
 class struct_anon_5(Structure):
     pass
 
@@ -1253,7 +1253,7 @@ struct_anon_5._fields_ = [
     ('oValues', c_ulong),
 ]
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 378
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 378
 class struct_anon_6(Structure):
     pass
 
@@ -1273,7 +1273,7 @@ struct_anon_6._fields_ = [
     ('oValues', c_ulong),
 ]
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 391
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 391
 class union_anon_7(Union):
     pass
 
@@ -1297,9 +1297,9 @@ union_anon_7._fields_ = [
     ('valblk', struct_anon_6),
 ]
 
-TCalibrationObjectValueEx = union_anon_7# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 391
+TCalibrationObjectValueEx = union_anon_7# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 391
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 410
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 410
 class struct_anon_8(Structure):
     pass
 
@@ -1325,9 +1325,9 @@ struct_anon_8._fields_ = [
     ('ySize', c_ulong),
 ]
 
-TCalibrationObjectValueEx2 = struct_anon_8# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 410
+TCalibrationObjectValueEx2 = struct_anon_8# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 410
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 413
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 413
 class struct_anon_9(Structure):
     pass
 
@@ -1341,7 +1341,7 @@ struct_anon_9._fields_ = [
     ('value', c_double),
 ]
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 417
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 417
 class struct_anon_10(Structure):
     pass
 
@@ -1357,7 +1357,7 @@ struct_anon_10._fields_ = [
     ('axis', POINTER(c_double)),
 ]
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 426
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 426
 class struct_anon_11(Structure):
     pass
 
@@ -1373,7 +1373,7 @@ struct_anon_11._fields_ = [
     ('ascii', String),
 ]
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 435
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 435
 class struct_anon_12(Structure):
     pass
 
@@ -1391,7 +1391,7 @@ struct_anon_12._fields_ = [
     ('values', POINTER(c_double)),
 ]
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 446
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 446
 class struct_anon_13(Structure):
     pass
 
@@ -1413,7 +1413,7 @@ struct_anon_13._fields_ = [
     ('values', POINTER(c_double)),
 ]
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 460
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 460
 class struct_anon_14(Structure):
     pass
 
@@ -1431,7 +1431,7 @@ struct_anon_14._fields_ = [
     ('values', POINTER(c_double)),
 ]
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 471
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 471
 class union_anon_15(Union):
     pass
 
@@ -1455,9 +1455,9 @@ union_anon_15._fields_ = [
     ('valblk', struct_anon_14),
 ]
 
-TCalibrationObjectValue = union_anon_15# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 471
+TCalibrationObjectValue = union_anon_15# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 471
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 482
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 482
 class struct_anon_16(Structure):
     pass
 
@@ -1473,9 +1473,9 @@ struct_anon_16._fields_ = [
     ('taskCycle', c_ulong),
 ]
 
-TTaskInfo = struct_anon_16# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 482
+TTaskInfo = struct_anon_16# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 482
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 484
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 484
 class struct_TConverterInfo(Structure):
     pass
 
@@ -1491,7 +1491,7 @@ struct_TConverterInfo._fields_ = [
     ('ID', c_char * int(260)),
 ]
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 501
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 501
 class struct_anon_17(Structure):
     pass
 
@@ -1509,69 +1509,69 @@ struct_anon_17._fields_ = [
     ('eventChannel', c_ulong),
 ]
 
-TTaskInfo2 = struct_anon_17# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 501
+TTaskInfo2 = struct_anon_17# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 501
 
-enum_anon_18 = c_int# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 508
+enum_anon_18 = c_int# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 508
 
-TYPE_FILE = 0# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 508
+TYPE_FILE = 0# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 508
 
-TYPE_VIRTUAL = (TYPE_FILE + 1)# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 508
+TYPE_VIRTUAL = (TYPE_FILE + 1)# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 508
 
-TYPE_PHYSICAL = (TYPE_VIRTUAL + 1)# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 508
+TYPE_PHYSICAL = (TYPE_VIRTUAL + 1)# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 508
 
-TAsap3FileType = enum_anon_18# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 508
+TAsap3FileType = enum_anon_18# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 508
 
-enum_anon_19 = c_int# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 512
+enum_anon_19 = c_int# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 512
 
-TYPE_SWITCH_ONLINE = 0# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 512
+TYPE_SWITCH_ONLINE = 0# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 512
 
-TYPE_SWITCH_OFFLINE = (TYPE_SWITCH_ONLINE + 1)# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 512
+TYPE_SWITCH_OFFLINE = (TYPE_SWITCH_ONLINE + 1)# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 512
 
-TAsap3ECUState = enum_anon_19# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 512
+TAsap3ECUState = enum_anon_19# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 512
 
-enum_anon_20 = c_int# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 521
+enum_anon_20 = c_int# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 521
 
-TYPE_UNKNOWN = 0# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 521
+TYPE_UNKNOWN = 0# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 521
 
-TYPE_INT = (TYPE_UNKNOWN + 1)# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 521
+TYPE_INT = (TYPE_UNKNOWN + 1)# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 521
 
-TYPE_FLOAT = (TYPE_INT + 1)# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 521
+TYPE_FLOAT = (TYPE_INT + 1)# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 521
 
-TYPE_DOUBLE = (TYPE_FLOAT + 1)# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 521
+TYPE_DOUBLE = (TYPE_FLOAT + 1)# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 521
 
-TYPE_SIGNED = (TYPE_DOUBLE + 1)# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 521
+TYPE_SIGNED = (TYPE_DOUBLE + 1)# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 521
 
-TYPE_UNSIGNED = (TYPE_SIGNED + 1)# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 521
+TYPE_UNSIGNED = (TYPE_SIGNED + 1)# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 521
 
-TYPE_STRING = (TYPE_UNSIGNED + 1)# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 521
+TYPE_STRING = (TYPE_UNSIGNED + 1)# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 521
 
-TAsap3DataType = enum_anon_20# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 521
+TAsap3DataType = enum_anon_20# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 521
 
-enum_anon_21 = c_int# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 526
+enum_anon_21 = c_int# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 526
 
-DBTYPE_MEASUREMENT = 1# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 526
+DBTYPE_MEASUREMENT = 1# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 526
 
-DBTYPE_CHARACTERISTIC = (DBTYPE_MEASUREMENT + 1)# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 526
+DBTYPE_CHARACTERISTIC = (DBTYPE_MEASUREMENT + 1)# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 526
 
-DBTYPE_ALL = (DBTYPE_CHARACTERISTIC + 1)# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 526
+DBTYPE_ALL = (DBTYPE_CHARACTERISTIC + 1)# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 526
 
-TAsap3DBOType = enum_anon_21# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 526
+TAsap3DBOType = enum_anon_21# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 526
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 537
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 537
 class struct_tAsap3Hdl(Structure):
     pass
 
-TAsap3Hdl = POINTER(struct_tAsap3Hdl)# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 538
+TAsap3Hdl = POINTER(struct_tAsap3Hdl)# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 538
 
-TRecorderID = POINTER(c_ulong)# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 547
+TRecorderID = POINTER(c_ulong)# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 540
 
-TModulHdl = c_ushort# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 549
+TModulHdl = c_ushort# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 542
 
-TScriptHdl = c_ulong# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 550
+TScriptHdl = c_ulong# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 543
 
-TTime = c_ulong# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 551
+TTime = c_ulong# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 544
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 556
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 549
 class struct_anon_22(Structure):
     pass
 
@@ -1587,9 +1587,9 @@ struct_anon_22._fields_ = [
     ('noSamples', c_ushort),
 ]
 
-tFifoSize = struct_anon_22# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 556
+tFifoSize = struct_anon_22# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 549
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 566
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 559
 class struct_anon_23(Structure):
     pass
 
@@ -1605,13 +1605,13 @@ struct_anon_23._fields_ = [
     ('data', POINTER(c_double)),
 ]
 
-tSampleObject = struct_anon_23# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 566
+tSampleObject = struct_anon_23# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 559
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 574
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 567
 class struct_tSampleObject(Structure):
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 567
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 560
 class struct_tSampleBlockObject(Structure):
     pass
 
@@ -1633,65 +1633,65 @@ struct_tSampleBlockObject._fields_ = [
     ('tSample', POINTER(POINTER(struct_tSampleObject))),
 ]
 
-enum_anon_24 = c_int# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 596
+enum_anon_24 = c_int# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 589
 
-ASAP3_DRIVER_UNKNOWN = 0# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 596
+ASAP3_DRIVER_UNKNOWN = 0# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 589
 
-ASAP3_DRIVER_CCP = 1# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 596
+ASAP3_DRIVER_CCP = 1# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 589
 
-ASAP3_DRIVER_XCP = 2# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 596
+ASAP3_DRIVER_XCP = 2# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 589
 
-ASAP3_DRIVER_CAN = 20# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 596
+ASAP3_DRIVER_CAN = 20# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 589
 
-ASAP3_DRIVER_HEXEDIT = 40# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 596
+ASAP3_DRIVER_HEXEDIT = 40# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 589
 
-ASAP3_DRIVER_ANALOG = 50# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 596
+ASAP3_DRIVER_ANALOG = 50# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 589
 
-ASAP3_DRIVER_CANOPEN = 60# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 596
+ASAP3_DRIVER_CANOPEN = 60# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 589
 
-ASAP3_DRIVER_CANDELA = 70# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 596
+ASAP3_DRIVER_CANDELA = 70# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 589
 
-ASAP3_DRIVER_ENVIRONMENT = 80# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 596
+ASAP3_DRIVER_ENVIRONMENT = 80# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 589
 
-ASAP3_DRIVER_LIN = 90# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 596
+ASAP3_DRIVER_LIN = 90# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 589
 
-ASAP3_DRIVER_FLX = 100# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 596
+ASAP3_DRIVER_FLX = 100# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 589
 
-ASAP3_DRIVER_FUNC = 110# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 596
+ASAP3_DRIVER_FUNC = 110# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 589
 
-ASAP3_DRIVER_NIDAQMX = 120# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 596
+ASAP3_DRIVER_NIDAQMX = 120# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 589
 
-ASAP3_DRIVER_XCP_RAMSCOPE = 130# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 596
+ASAP3_DRIVER_XCP_RAMSCOPE = 130# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 589
 
-ASAP3_DRIVER_SYSTEM = 140# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 596
+ASAP3_DRIVER_SYSTEM = 140# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 589
 
-ASAP3_DRIVER_ETH = 150# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 596
+ASAP3_DRIVER_ETH = 150# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 589
 
-ASAP3_DAIO_SYSTEM = 160# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 596
+ASAP3_DAIO_SYSTEM = 160# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 589
 
-ASAP3_DRIVER_SOME_IP = 170# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 596
+ASAP3_DRIVER_SOME_IP = 170# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 589
 
-ASAP3_DRIVER_DLT = 180# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 596
+ASAP3_DRIVER_DLT = 180# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 589
 
-tDriverType = enum_anon_24# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 596
+tDriverType = enum_anon_24# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 589
 
-enum_anon_25 = c_int# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 606
+enum_anon_25 = c_int# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 599
 
-eT_MEASUREMENT_STOPPED = 0# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 606
+eT_MEASUREMENT_STOPPED = 0# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 599
 
-eT_MEASUREMENT_INIT = 1# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 606
+eT_MEASUREMENT_INIT = 1# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 599
 
-eT_MEASUREMENT_STOP_ON_START = 2# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 606
+eT_MEASUREMENT_STOP_ON_START = 2# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 599
 
-eT_MEASUREMENT_EXIT = 3# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 606
+eT_MEASUREMENT_EXIT = 3# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 599
 
-eT_MEASUREMENT_THREAD_RUNNING = 4# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 606
+eT_MEASUREMENT_THREAD_RUNNING = 4# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 599
 
-eT_MEASUREMENT_RUNNING = 5# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 606
+eT_MEASUREMENT_RUNNING = 5# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 599
 
-tMeasurementState = enum_anon_25# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 606
+tMeasurementState = enum_anon_25# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 599
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 624
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 617
 class struct_anon_26(Structure):
     pass
 
@@ -1711,9 +1711,9 @@ struct_anon_26._fields_ = [
     ('osRelease', c_int),
 ]
 
-version_t = struct_anon_26# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 624
+version_t = struct_anon_26# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 617
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 631
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 624
 class struct_anon_27(Structure):
     pass
 
@@ -1731,1119 +1731,1119 @@ struct_anon_27._fields_ = [
     ('Application', c_char * int(30)),
 ]
 
-Appversion = struct_anon_27# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 631
+Appversion = struct_anon_27# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 624
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 691
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 684
 if _libs["CANapAPI64.dll"].has("Asap3IsUsCANapeVersion", "stdcall"):
     Asap3IsUsCANapeVersion = _libs["CANapAPI64.dll"].get("Asap3IsUsCANapeVersion", "stdcall")
     Asap3IsUsCANapeVersion.argtypes = [POINTER(c_int)]
     Asap3IsUsCANapeVersion.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 693
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 686
 if _libs["CANapAPI64.dll"].has("Asap3GetVersion", "stdcall"):
     Asap3GetVersion = _libs["CANapAPI64.dll"].get("Asap3GetVersion", "stdcall")
     Asap3GetVersion.argtypes = [POINTER(version_t)]
     Asap3GetVersion.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 694
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 687
 if _libs["CANapAPI64.dll"].has("Asap3SetTCPOptions", "stdcall"):
     Asap3SetTCPOptions = _libs["CANapAPI64.dll"].get("Asap3SetTCPOptions", "stdcall")
     Asap3SetTCPOptions.argtypes = [String, c_ulong]
     Asap3SetTCPOptions.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 695
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 688
 if _libs["CANapAPI64.dll"].has("Asap3Init", "stdcall"):
     Asap3Init = _libs["CANapAPI64.dll"].get("Asap3Init", "stdcall")
     Asap3Init.argtypes = [POINTER(TAsap3Hdl), c_ulong, String, c_ulong, c_bool]
     Asap3Init.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 700
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 693
 if _libs["CANapAPI64.dll"].has("Asap3Init2", "stdcall"):
     Asap3Init2 = _libs["CANapAPI64.dll"].get("Asap3Init2", "stdcall")
     Asap3Init2.argtypes = [POINTER(TAsap3Hdl), c_ulong, String, c_ulong, c_ulong, c_bool]
     Asap3Init2.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 706
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 699
 if _libs["CANapAPI64.dll"].has("Asap3Init3", "stdcall"):
     Asap3Init3 = _libs["CANapAPI64.dll"].get("Asap3Init3", "stdcall")
     Asap3Init3.argtypes = [POINTER(TAsap3Hdl), c_ulong, String, c_ulong, c_ulong, c_bool, c_bool]
     Asap3Init3.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 713
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 706
 if _libs["CANapAPI64.dll"].has("Asap3Init4", "stdcall"):
     Asap3Init4 = _libs["CANapAPI64.dll"].get("Asap3Init4", "stdcall")
     Asap3Init4.argtypes = [POINTER(TAsap3Hdl), c_ulong, String, c_ulong, c_ulong, c_bool, c_bool, c_bool]
     Asap3Init4.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 721
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 714
 if _libs["CANapAPI64.dll"].has("Asap3Init5", "stdcall"):
     Asap3Init5 = _libs["CANapAPI64.dll"].get("Asap3Init5", "stdcall")
     Asap3Init5.argtypes = [POINTER(TAsap3Hdl), c_ulong, String, c_ulong, c_ulong, c_bool, c_bool, c_bool, c_bool]
     Asap3Init5.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 730
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 723
 if _libs["CANapAPI64.dll"].has("Asap3Init6", "stdcall"):
     Asap3Init6 = _libs["CANapAPI64.dll"].get("Asap3Init6", "stdcall")
     Asap3Init6.argtypes = [POINTER(TAsap3Hdl), c_ulong, String, c_ulong, c_ulong, c_bool, c_bool, c_bool, c_bool, POINTER(struct_TApplicationID)]
     Asap3Init6.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 740
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 733
 if _libs["CANapAPI64.dll"].has("Asap3GetProjectDirectory", "stdcall"):
     Asap3GetProjectDirectory = _libs["CANapAPI64.dll"].get("Asap3GetProjectDirectory", "stdcall")
     Asap3GetProjectDirectory.argtypes = [TAsap3Hdl, String, POINTER(c_ulong)]
     Asap3GetProjectDirectory.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 741
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 734
 if _libs["CANapAPI64.dll"].has("Asap3Exit", "stdcall"):
     Asap3Exit = _libs["CANapAPI64.dll"].get("Asap3Exit", "stdcall")
     Asap3Exit.argtypes = [TAsap3Hdl]
     Asap3Exit.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 742
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 735
 if _libs["CANapAPI64.dll"].has("Asap3GetLastError", "stdcall"):
     Asap3GetLastError = _libs["CANapAPI64.dll"].get("Asap3GetLastError", "stdcall")
     Asap3GetLastError.argtypes = [TAsap3Hdl]
     Asap3GetLastError.restype = c_ushort
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 743
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 736
 if _libs["CANapAPI64.dll"].has("Asap3SetApplicationName", "stdcall"):
     Asap3SetApplicationName = _libs["CANapAPI64.dll"].get("Asap3SetApplicationName", "stdcall")
     Asap3SetApplicationName.argtypes = [TAsap3Hdl, String]
     Asap3SetApplicationName.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 744
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 737
 if _libs["CANapAPI64.dll"].has("Asap3GetApplicationName", "stdcall"):
     Asap3GetApplicationName = _libs["CANapAPI64.dll"].get("Asap3GetApplicationName", "stdcall")
     Asap3GetApplicationName.argtypes = [TAsap3Hdl, String, POINTER(c_ulong)]
     Asap3GetApplicationName.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 745
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 738
 if _libs["CANapAPI64.dll"].has("Asap3GetApplicationVersion", "stdcall"):
     Asap3GetApplicationVersion = _libs["CANapAPI64.dll"].get("Asap3GetApplicationVersion", "stdcall")
     Asap3GetApplicationVersion.argtypes = [TAsap3Hdl, POINTER(Appversion)]
     Asap3GetApplicationVersion.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 746
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 739
 if _libs["CANapAPI64.dll"].has("Asap3Exit2", "stdcall"):
     Asap3Exit2 = _libs["CANapAPI64.dll"].get("Asap3Exit2", "stdcall")
     Asap3Exit2.argtypes = [TAsap3Hdl, c_bool]
     Asap3Exit2.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 747
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 740
 if _libs["CANapAPI64.dll"].has("Asap3ErrorText", "stdcall"):
     Asap3ErrorText = _libs["CANapAPI64.dll"].get("Asap3ErrorText", "stdcall")
     Asap3ErrorText.argtypes = [TAsap3Hdl, c_ushort, POINTER(POINTER(c_char))]
     Asap3ErrorText.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 748
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 741
 if _libs["CANapAPI64.dll"].has("Asap3PopupDebugWindow", "stdcall"):
     Asap3PopupDebugWindow = _libs["CANapAPI64.dll"].get("Asap3PopupDebugWindow", "stdcall")
     Asap3PopupDebugWindow.argtypes = [TAsap3Hdl]
     Asap3PopupDebugWindow.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 749
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 742
 if _libs["CANapAPI64.dll"].has("Asap3SaveDebugWindow", "stdcall"):
     Asap3SaveDebugWindow = _libs["CANapAPI64.dll"].get("Asap3SaveDebugWindow", "stdcall")
     Asap3SaveDebugWindow.argtypes = [TAsap3Hdl, String]
     Asap3SaveDebugWindow.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 750
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 743
 if _libs["CANapAPI64.dll"].has("Asap3AttachAsap2", "stdcall"):
     Asap3AttachAsap2 = _libs["CANapAPI64.dll"].get("Asap3AttachAsap2", "stdcall")
     Asap3AttachAsap2.argtypes = [TAsap3Hdl, String, c_short, POINTER(TModulHdl)]
     Asap3AttachAsap2.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 751
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 744
 if _libs["CANapAPI64.dll"].has("Asap3CreateModule", "stdcall"):
     Asap3CreateModule = _libs["CANapAPI64.dll"].get("Asap3CreateModule", "stdcall")
     Asap3CreateModule.argtypes = [TAsap3Hdl, String, String, c_short, c_short, POINTER(TModulHdl)]
     Asap3CreateModule.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 753
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 746
 if _libs["CANapAPI64.dll"].has("Asap3CreateModule2", "stdcall"):
     Asap3CreateModule2 = _libs["CANapAPI64.dll"].get("Asap3CreateModule2", "stdcall")
     Asap3CreateModule2.argtypes = [TAsap3Hdl, String, String, c_short, c_short, c_bool, POINTER(TModulHdl)]
     Asap3CreateModule2.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 755
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 748
 if _libs["CANapAPI64.dll"].has("Asap3CreateModule3", "stdcall"):
     Asap3CreateModule3 = _libs["CANapAPI64.dll"].get("Asap3CreateModule3", "stdcall")
     Asap3CreateModule3.argtypes = [TAsap3Hdl, String, String, c_short, c_short, c_bool, c_short, POINTER(TModulHdl)]
     Asap3CreateModule3.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 757
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 750
 if _libs["CANapAPI64.dll"].has("Asap3CreateModule4", "stdcall"):
     Asap3CreateModule4 = _libs["CANapAPI64.dll"].get("Asap3CreateModule4", "stdcall")
     Asap3CreateModule4.argtypes = [TAsap3Hdl, String, String, c_short, c_short, String, c_bool, c_short, POINTER(TModulHdl)]
     Asap3CreateModule4.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 759
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 752
 if _libs["CANapAPI64.dll"].has("Asap3CreateModuleSec", "stdcall"):
     Asap3CreateModuleSec = _libs["CANapAPI64.dll"].get("Asap3CreateModuleSec", "stdcall")
     Asap3CreateModuleSec.argtypes = [TAsap3Hdl, String, String, c_short, c_short, String, c_uint, String, c_bool, c_short, POINTER(TModulHdl)]
     Asap3CreateModuleSec.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 762
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 755
 if _libs["CANapAPI64.dll"].has("Asap3GetModuleSecJobName", "stdcall"):
     Asap3GetModuleSecJobName = _libs["CANapAPI64.dll"].get("Asap3GetModuleSecJobName", "stdcall")
     Asap3GetModuleSecJobName.argtypes = [TAsap3Hdl, TModulHdl, String, POINTER(DWORD)]
     Asap3GetModuleSecJobName.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 763
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 756
 if _libs["CANapAPI64.dll"].has("Asap3GetModuleCount", "stdcall"):
     Asap3GetModuleCount = _libs["CANapAPI64.dll"].get("Asap3GetModuleCount", "stdcall")
     Asap3GetModuleCount.argtypes = [TAsap3Hdl, POINTER(c_ulong)]
     Asap3GetModuleCount.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 764
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 757
 if _libs["CANapAPI64.dll"].has("Asap3RestartMeasurementOnError", "stdcall"):
     Asap3RestartMeasurementOnError = _libs["CANapAPI64.dll"].get("Asap3RestartMeasurementOnError", "stdcall")
     Asap3RestartMeasurementOnError.argtypes = [TAsap3Hdl, TModulHdl, c_bool]
     Asap3RestartMeasurementOnError.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 765
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 758
 if _libs["CANapAPI64.dll"].has("Asap3IsRestartMeasurementOnErrorEnabled", "stdcall"):
     Asap3IsRestartMeasurementOnErrorEnabled = _libs["CANapAPI64.dll"].get("Asap3IsRestartMeasurementOnErrorEnabled", "stdcall")
     Asap3IsRestartMeasurementOnErrorEnabled.argtypes = [TAsap3Hdl, TModulHdl, POINTER(c_bool)]
     Asap3IsRestartMeasurementOnErrorEnabled.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 766
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 759
 if _libs["CANapAPI64.dll"].has("Asap3IsModuleActive", "stdcall"):
     Asap3IsModuleActive = _libs["CANapAPI64.dll"].get("Asap3IsModuleActive", "stdcall")
     Asap3IsModuleActive.argtypes = [TAsap3Hdl, TModulHdl, POINTER(c_bool)]
     Asap3IsModuleActive.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 767
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 760
 if _libs["CANapAPI64.dll"].has("Asap3ModuleActivation", "stdcall"):
     Asap3ModuleActivation = _libs["CANapAPI64.dll"].get("Asap3ModuleActivation", "stdcall")
     Asap3ModuleActivation.argtypes = [TAsap3Hdl, TModulHdl, c_bool]
     Asap3ModuleActivation.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 768
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 761
 if _libs["CANapAPI64.dll"].has("Asap3SwitchToMemoryPage", "stdcall"):
     Asap3SwitchToMemoryPage = _libs["CANapAPI64.dll"].get("Asap3SwitchToMemoryPage", "stdcall")
     Asap3SwitchToMemoryPage.argtypes = [TAsap3Hdl, TModulHdl, enum_e_RamMode]
     Asap3SwitchToMemoryPage.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 769
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 762
 if _libs["CANapAPI64.dll"].has("Asap3GetMemoryPage", "stdcall"):
     Asap3GetMemoryPage = _libs["CANapAPI64.dll"].get("Asap3GetMemoryPage", "stdcall")
     Asap3GetMemoryPage.argtypes = [TAsap3Hdl, TModulHdl, POINTER(enum_e_RamMode)]
     Asap3GetMemoryPage.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 770
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 763
 if _libs["CANapAPI64.dll"].has("Asap3GetDBObjectUnit", "stdcall"):
     Asap3GetDBObjectUnit = _libs["CANapAPI64.dll"].get("Asap3GetDBObjectUnit", "stdcall")
     Asap3GetDBObjectUnit.argtypes = [TAsap3Hdl, TModulHdl, String, String, POINTER(UINT)]
     Asap3GetDBObjectUnit.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 771
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 764
 if _libs["CANapAPI64.dll"].has("Asap3GetDBObjectInfo", "stdcall"):
     Asap3GetDBObjectInfo = _libs["CANapAPI64.dll"].get("Asap3GetDBObjectInfo", "stdcall")
     Asap3GetDBObjectInfo.argtypes = [TAsap3Hdl, TModulHdl, String, POINTER(DBObjectInfo)]
     Asap3GetDBObjectInfo.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 772
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 765
 if _libs["CANapAPI64.dll"].has("Asap3GetDatabaseObjects", "stdcall"):
     Asap3GetDatabaseObjects = _libs["CANapAPI64.dll"].get("Asap3GetDatabaseObjects", "stdcall")
     Asap3GetDatabaseObjects.argtypes = [TAsap3Hdl, TModulHdl, String, POINTER(UINT), TAsap3DBOType]
     Asap3GetDatabaseObjects.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 773
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 766
 if _libs["CANapAPI64.dll"].has("Asap3GetDatabaseObjectsByType", "stdcall"):
     Asap3GetDatabaseObjectsByType = _libs["CANapAPI64.dll"].get("Asap3GetDatabaseObjectsByType", "stdcall")
     Asap3GetDatabaseObjectsByType.argtypes = [TAsap3Hdl, TModulHdl, String, POINTER(UINT), TAsap3DBOType, c_ulong]
     Asap3GetDatabaseObjectsByType.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 774
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 767
 if _libs["CANapAPI64.dll"].has("Asap3GetAsap2", "stdcall"):
     Asap3GetAsap2 = _libs["CANapAPI64.dll"].get("Asap3GetAsap2", "stdcall")
     Asap3GetAsap2.argtypes = [TAsap3Hdl, TModulHdl, POINTER(POINTER(c_char))]
     Asap3GetAsap2.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 775
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 768
 if _libs["CANapAPI64.dll"].has("Asap3GetDatabaseInfo", "stdcall"):
     Asap3GetDatabaseInfo = _libs["CANapAPI64.dll"].get("Asap3GetDatabaseInfo", "stdcall")
     Asap3GetDatabaseInfo.argtypes = [TAsap3Hdl, TModulHdl, POINTER(struct_DBFileInfo)]
     Asap3GetDatabaseInfo.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 776
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 769
 if _libs["CANapAPI64.dll"].has("Asap3TransmitFile2ClientPc", "stdcall"):
     Asap3TransmitFile2ClientPc = _libs["CANapAPI64.dll"].get("Asap3TransmitFile2ClientPc", "stdcall")
     Asap3TransmitFile2ClientPc.argtypes = [TAsap3Hdl, String, String]
     Asap3TransmitFile2ClientPc.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 777
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 770
 if _libs["CANapAPI64.dll"].has("Asap3GetModuleName", "stdcall"):
     Asap3GetModuleName = _libs["CANapAPI64.dll"].get("Asap3GetModuleName", "stdcall")
     Asap3GetModuleName.argtypes = [TAsap3Hdl, TModulHdl, POINTER(POINTER(c_char))]
     Asap3GetModuleName.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 778
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 771
 if _libs["CANapAPI64.dll"].has("Asap3GetModuleHandle", "stdcall"):
     Asap3GetModuleHandle = _libs["CANapAPI64.dll"].get("Asap3GetModuleHandle", "stdcall")
     Asap3GetModuleHandle.argtypes = [TAsap3Hdl, String, POINTER(TModulHdl)]
     Asap3GetModuleHandle.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 779
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 772
 if _libs["CANapAPI64.dll"].has("Asap3ReleaseModule", "stdcall"):
     Asap3ReleaseModule = _libs["CANapAPI64.dll"].get("Asap3ReleaseModule", "stdcall")
     Asap3ReleaseModule.argtypes = [TAsap3Hdl, TModulHdl]
     Asap3ReleaseModule.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 780
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 773
 if _libs["CANapAPI64.dll"].has("Asap3GetCommunicationType", "stdcall"):
     Asap3GetCommunicationType = _libs["CANapAPI64.dll"].get("Asap3GetCommunicationType", "stdcall")
     Asap3GetCommunicationType.argtypes = [TAsap3Hdl, TModulHdl, POINTER(POINTER(c_char))]
     Asap3GetCommunicationType.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 781
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 774
 if _libs["CANapAPI64.dll"].has("Asap3ECUOnOffline", "stdcall"):
     Asap3ECUOnOffline = _libs["CANapAPI64.dll"].get("Asap3ECUOnOffline", "stdcall")
     Asap3ECUOnOffline.argtypes = [TAsap3Hdl, TModulHdl, TAsap3ECUState, c_bool]
     Asap3ECUOnOffline.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 782
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 775
 if _libs["CANapAPI64.dll"].has("Asap3IsECUOnline", "stdcall"):
     Asap3IsECUOnline = _libs["CANapAPI64.dll"].get("Asap3IsECUOnline", "stdcall")
     Asap3IsECUOnline.argtypes = [TAsap3Hdl, TModulHdl, POINTER(TAsap3ECUState)]
     Asap3IsECUOnline.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 783
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 776
 if _libs["CANapAPI64.dll"].has("Asap3ReadByAddress", "stdcall"):
     Asap3ReadByAddress = _libs["CANapAPI64.dll"].get("Asap3ReadByAddress", "stdcall")
     Asap3ReadByAddress.argtypes = [TAsap3Hdl, TModulHdl, c_ulong, c_ubyte, c_ulong, POINTER(c_ubyte)]
     Asap3ReadByAddress.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 786
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 779
 if _libs["CANapAPI64.dll"].has("Asap3WriteByAddress", "stdcall"):
     Asap3WriteByAddress = _libs["CANapAPI64.dll"].get("Asap3WriteByAddress", "stdcall")
     Asap3WriteByAddress.argtypes = [TAsap3Hdl, TModulHdl, c_ulong, c_ubyte, c_ulong, POINTER(c_ubyte)]
     Asap3WriteByAddress.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 789
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 782
 if _libs["CANapAPI64.dll"].has("Asap3ReadCalibrationObject", "stdcall"):
     Asap3ReadCalibrationObject = _libs["CANapAPI64.dll"].get("Asap3ReadCalibrationObject", "stdcall")
     Asap3ReadCalibrationObject.argtypes = [TAsap3Hdl, TModulHdl, String, enum_TFormat, POINTER(TCalibrationObjectValue)]
     Asap3ReadCalibrationObject.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 792
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 785
 if _libs["CANapAPI64.dll"].has("Asap3ReadCalibrationObject2", "stdcall"):
     Asap3ReadCalibrationObject2 = _libs["CANapAPI64.dll"].get("Asap3ReadCalibrationObject2", "stdcall")
     Asap3ReadCalibrationObject2.argtypes = [TAsap3Hdl, TModulHdl, String, enum_TFormat, c_bool, POINTER(TCalibrationObjectValue)]
     Asap3ReadCalibrationObject2.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 795
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 788
 if _libs["CANapAPI64.dll"].has("Asap3ReadCalibrationObjectEx", "stdcall"):
     Asap3ReadCalibrationObjectEx = _libs["CANapAPI64.dll"].get("Asap3ReadCalibrationObjectEx", "stdcall")
     Asap3ReadCalibrationObjectEx.argtypes = [TAsap3Hdl, TModulHdl, String, enum_TFormat, POINTER(TCalibrationObjectValueEx)]
     Asap3ReadCalibrationObjectEx.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 798
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 791
 if _libs["CANapAPI64.dll"].has("Asap3WriteCalibrationObject", "stdcall"):
     Asap3WriteCalibrationObject = _libs["CANapAPI64.dll"].get("Asap3WriteCalibrationObject", "stdcall")
     Asap3WriteCalibrationObject.argtypes = [TAsap3Hdl, TModulHdl, String, enum_TFormat, POINTER(TCalibrationObjectValue)]
     Asap3WriteCalibrationObject.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 801
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 794
 if _libs["CANapAPI64.dll"].has("Asap3WriteCalibrationObjectEx", "stdcall"):
     Asap3WriteCalibrationObjectEx = _libs["CANapAPI64.dll"].get("Asap3WriteCalibrationObjectEx", "stdcall")
     Asap3WriteCalibrationObjectEx.argtypes = [TAsap3Hdl, TModulHdl, String, enum_TFormat, POINTER(TCalibrationObjectValueEx)]
     Asap3WriteCalibrationObjectEx.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 804
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 797
 if _libs["CANapAPI64.dll"].has("Asap3TestObject", "stdcall"):
     Asap3TestObject = _libs["CANapAPI64.dll"].get("Asap3TestObject", "stdcall")
     Asap3TestObject.argtypes = [TAsap3Hdl, TModulHdl, String, POINTER(enum_TObjectType)]
     Asap3TestObject.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 806
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 799
 if _libs["CANapAPI64.dll"].has("Asap3CalibrationObjectInfo", "stdcall"):
     Asap3CalibrationObjectInfo = _libs["CANapAPI64.dll"].get("Asap3CalibrationObjectInfo", "stdcall")
     Asap3CalibrationObjectInfo.argtypes = [TAsap3Hdl, TModulHdl, String, POINTER(c_short), POINTER(c_short)]
     Asap3CalibrationObjectInfo.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 809
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 802
 if _libs["CANapAPI64.dll"].has("Asap3CalibrationObjectInfoEx", "stdcall"):
     Asap3CalibrationObjectInfoEx = _libs["CANapAPI64.dll"].get("Asap3CalibrationObjectInfoEx", "stdcall")
     Asap3CalibrationObjectInfoEx.argtypes = [TAsap3Hdl, TModulHdl, String, POINTER(c_short), POINTER(c_short), POINTER(enum_TValueType)]
     Asap3CalibrationObjectInfoEx.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 812
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 805
 if _libs["CANapAPI64.dll"].has("Asap3CalibrationObjectRecordInfo", "stdcall"):
     Asap3CalibrationObjectRecordInfo = _libs["CANapAPI64.dll"].get("Asap3CalibrationObjectRecordInfo", "stdcall")
     Asap3CalibrationObjectRecordInfo.argtypes = [TAsap3Hdl, TModulHdl, String, POINTER(struct_TLayoutCoeffs), POINTER(c_short), POINTER(c_short)]
     Asap3CalibrationObjectRecordInfo.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 815
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 808
 if _libs["CANapAPI64.dll"].has("Asap3GetEcuTasks", "stdcall"):
     Asap3GetEcuTasks = _libs["CANapAPI64.dll"].get("Asap3GetEcuTasks", "stdcall")
     Asap3GetEcuTasks.argtypes = [TAsap3Hdl, TModulHdl, POINTER(TTaskInfo), POINTER(c_ushort), c_ushort]
     Asap3GetEcuTasks.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 818
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 811
 if _libs["CANapAPI64.dll"].has("Asap3GetEcuTasks2", "stdcall"):
     Asap3GetEcuTasks2 = _libs["CANapAPI64.dll"].get("Asap3GetEcuTasks2", "stdcall")
     Asap3GetEcuTasks2.argtypes = [TAsap3Hdl, TModulHdl, POINTER(TTaskInfo2), POINTER(c_ushort), c_ushort]
     Asap3GetEcuTasks2.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 821
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 814
 if _libs["CANapAPI64.dll"].has("Asap3CreateLoggerConfiguration", "stdcall"):
     Asap3CreateLoggerConfiguration = _libs["CANapAPI64.dll"].get("Asap3CreateLoggerConfiguration", "stdcall")
     Asap3CreateLoggerConfiguration.argtypes = [TAsap3Hdl, TModulHdl]
     Asap3CreateLoggerConfiguration.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 822
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 815
 if _libs["CANapAPI64.dll"].has("Asap3GetEcuDriverType", "stdcall"):
     Asap3GetEcuDriverType = _libs["CANapAPI64.dll"].get("Asap3GetEcuDriverType", "stdcall")
     Asap3GetEcuDriverType.argtypes = [TAsap3Hdl, TModulHdl, POINTER(tDriverType)]
     Asap3GetEcuDriverType.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 823
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 816
 if _libs["CANapAPI64.dll"].has("Asap3HasResumeMode", "stdcall"):
     Asap3HasResumeMode = _libs["CANapAPI64.dll"].get("Asap3HasResumeMode", "stdcall")
     Asap3HasResumeMode.argtypes = [TAsap3Hdl, TModulHdl, POINTER(c_bool)]
     Asap3HasResumeMode.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 824
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 817
 if _libs["CANapAPI64.dll"].has("Asap3SetResumeMode", "stdcall"):
     Asap3SetResumeMode = _libs["CANapAPI64.dll"].get("Asap3SetResumeMode", "stdcall")
     Asap3SetResumeMode.argtypes = [TAsap3Hdl, TModulHdl]
     Asap3SetResumeMode.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 825
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 818
 if _libs["CANapAPI64.dll"].has("Asap3IsResumeModeActive", "stdcall"):
     Asap3IsResumeModeActive = _libs["CANapAPI64.dll"].get("Asap3IsResumeModeActive", "stdcall")
     Asap3IsResumeModeActive.argtypes = [TAsap3Hdl, TModulHdl, POINTER(c_bool)]
     Asap3IsResumeModeActive.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 826
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 819
 if _libs["CANapAPI64.dll"].has("Asap3ClearResumeMode", "stdcall"):
     Asap3ClearResumeMode = _libs["CANapAPI64.dll"].get("Asap3ClearResumeMode", "stdcall")
     Asap3ClearResumeMode.argtypes = [TAsap3Hdl, TModulHdl]
     Asap3ClearResumeMode.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 827
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 820
 if _libs["CANapAPI64.dll"].has("Asap3GetChnlDefaultRaster", "stdcall"):
     Asap3GetChnlDefaultRaster = _libs["CANapAPI64.dll"].get("Asap3GetChnlDefaultRaster", "stdcall")
     Asap3GetChnlDefaultRaster.argtypes = [TAsap3Hdl, TModulHdl, String, POINTER(c_ushort), POINTER(c_ushort)]
     Asap3GetChnlDefaultRaster.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 828
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 821
 if _libs["CANapAPI64.dll"].has("Asap3SetupFifo", "stdcall"):
     Asap3SetupFifo = _libs["CANapAPI64.dll"].get("Asap3SetupFifo", "stdcall")
     Asap3SetupFifo.argtypes = [TAsap3Hdl, c_ushort, POINTER(tFifoSize)]
     Asap3SetupFifo.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 831
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 824
 if _libs["CANapAPI64.dll"].has("Asap3SetupDataAcquisitionChnl", "stdcall"):
     Asap3SetupDataAcquisitionChnl = _libs["CANapAPI64.dll"].get("Asap3SetupDataAcquisitionChnl", "stdcall")
     Asap3SetupDataAcquisitionChnl.argtypes = [TAsap3Hdl, TModulHdl, String, enum_TFormat, c_ushort, c_ushort, c_bool]
     Asap3SetupDataAcquisitionChnl.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 835
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 828
 if _libs["CANapAPI64.dll"].has("Asap3SetupDataAcquisitionChnl2", "stdcall"):
     Asap3SetupDataAcquisitionChnl2 = _libs["CANapAPI64.dll"].get("Asap3SetupDataAcquisitionChnl2", "stdcall")
     Asap3SetupDataAcquisitionChnl2.argtypes = [TAsap3Hdl, TModulHdl, String, enum_TFormat, c_ushort, c_ushort, c_bool, c_bool]
     Asap3SetupDataAcquisitionChnl2.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 839
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 832
 if _libs["CANapAPI64.dll"].has("Asap3GetMeasurementListEntries", "stdcall"):
     Asap3GetMeasurementListEntries = _libs["CANapAPI64.dll"].get("Asap3GetMeasurementListEntries", "stdcall")
     Asap3GetMeasurementListEntries.argtypes = [TAsap3Hdl, TModulHdl, POINTER(POINTER(struct_MeasurementListEntries))]
     Asap3GetMeasurementListEntries.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 840
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 833
 if _libs["CANapAPI64.dll"].has("Asap3GetMeasurementState", "stdcall"):
     Asap3GetMeasurementState = _libs["CANapAPI64.dll"].get("Asap3GetMeasurementState", "stdcall")
     Asap3GetMeasurementState.argtypes = [TAsap3Hdl, POINTER(tMeasurementState)]
     Asap3GetMeasurementState.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 841
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 834
 if _libs["CANapAPI64.dll"].has("Asap3HasMCD3License", "stdcall"):
     Asap3HasMCD3License = _libs["CANapAPI64.dll"].get("Asap3HasMCD3License", "stdcall")
     Asap3HasMCD3License.argtypes = [TAsap3Hdl, POINTER(c_bool)]
     Asap3HasMCD3License.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 843
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 836
 if _libs["CANapAPI64.dll"].has("Asap3GetRecorderType", "stdcall"):
     Asap3GetRecorderType = _libs["CANapAPI64.dll"].get("Asap3GetRecorderType", "stdcall")
     Asap3GetRecorderType.argtypes = [TAsap3Hdl, TRecorderID, POINTER(enum_TRecorderType)]
     Asap3GetRecorderType.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 844
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 837
 if _libs["CANapAPI64.dll"].has("Asap3GetRecorderName", "stdcall"):
     Asap3GetRecorderName = _libs["CANapAPI64.dll"].get("Asap3GetRecorderName", "stdcall")
     Asap3GetRecorderName.argtypes = [TAsap3Hdl, TRecorderID, String, POINTER(c_long)]
     Asap3GetRecorderName.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 845
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 838
 if _libs["CANapAPI64.dll"].has("Asap3GetRecorderCount", "stdcall"):
     Asap3GetRecorderCount = _libs["CANapAPI64.dll"].get("Asap3GetRecorderCount", "stdcall")
     Asap3GetRecorderCount.argtypes = [TAsap3Hdl, POINTER(c_ulong)]
     Asap3GetRecorderCount.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 846
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 839
 if _libs["CANapAPI64.dll"].has("Asap3GetRecorderByIndex", "stdcall"):
     Asap3GetRecorderByIndex = _libs["CANapAPI64.dll"].get("Asap3GetRecorderByIndex", "stdcall")
     Asap3GetRecorderByIndex.argtypes = [TAsap3Hdl, c_ulong, POINTER(TRecorderID)]
     Asap3GetRecorderByIndex.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 847
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 840
 if _libs["CANapAPI64.dll"].has("Asap3GetRecorderByName", "stdcall"):
     Asap3GetRecorderByName = _libs["CANapAPI64.dll"].get("Asap3GetRecorderByName", "stdcall")
     Asap3GetRecorderByName.argtypes = [TAsap3Hdl, String, POINTER(TRecorderID)]
     Asap3GetRecorderByName.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 848
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 841
 if _libs["CANapAPI64.dll"].has("Asap3SelectRecorder", "stdcall"):
     Asap3SelectRecorder = _libs["CANapAPI64.dll"].get("Asap3SelectRecorder", "stdcall")
     Asap3SelectRecorder.argtypes = [TAsap3Hdl, TRecorderID]
     Asap3SelectRecorder.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 849
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 842
 if _libs["CANapAPI64.dll"].has("Asap3GetSelectedRecorder", "stdcall"):
     Asap3GetSelectedRecorder = _libs["CANapAPI64.dll"].get("Asap3GetSelectedRecorder", "stdcall")
     Asap3GetSelectedRecorder.argtypes = [TAsap3Hdl, POINTER(TRecorderID)]
     Asap3GetSelectedRecorder.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 850
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 843
 if _libs["CANapAPI64.dll"].has("Asap3RemoveRecorder", "stdcall"):
     Asap3RemoveRecorder = _libs["CANapAPI64.dll"].get("Asap3RemoveRecorder", "stdcall")
     Asap3RemoveRecorder.argtypes = [TAsap3Hdl, TRecorderID]
     Asap3RemoveRecorder.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 851
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 844
 if _libs["CANapAPI64.dll"].has("Asap3EnableBusLoggingRecorderByModule", "stdcall"):
     Asap3EnableBusLoggingRecorderByModule = _libs["CANapAPI64.dll"].get("Asap3EnableBusLoggingRecorderByModule", "stdcall")
     Asap3EnableBusLoggingRecorderByModule.argtypes = [TAsap3Hdl, TRecorderID, TModulHdl, c_int]
     Asap3EnableBusLoggingRecorderByModule.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 852
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 845
 if _libs["CANapAPI64.dll"].has("Asap3EnableBusLoggingRecorderByNetWork", "stdcall"):
     Asap3EnableBusLoggingRecorderByNetWork = _libs["CANapAPI64.dll"].get("Asap3EnableBusLoggingRecorderByNetWork", "stdcall")
     Asap3EnableBusLoggingRecorderByNetWork.argtypes = [TAsap3Hdl, TRecorderID, String, c_int]
     Asap3EnableBusLoggingRecorderByNetWork.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 853
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 846
 if _libs["CANapAPI64.dll"].has("Asap3IsRecorderBusLoggingEnableByNetWork", "stdcall"):
     Asap3IsRecorderBusLoggingEnableByNetWork = _libs["CANapAPI64.dll"].get("Asap3IsRecorderBusLoggingEnableByNetWork", "stdcall")
     Asap3IsRecorderBusLoggingEnableByNetWork.argtypes = [TAsap3Hdl, TRecorderID, String, POINTER(c_int)]
     Asap3IsRecorderBusLoggingEnableByNetWork.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 854
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 847
 if _libs["CANapAPI64.dll"].has("Asap3IsRecorderBusLoggingEnableByModule", "stdcall"):
     Asap3IsRecorderBusLoggingEnableByModule = _libs["CANapAPI64.dll"].get("Asap3IsRecorderBusLoggingEnableByModule", "stdcall")
     Asap3IsRecorderBusLoggingEnableByModule.argtypes = [TAsap3Hdl, TRecorderID, TModulHdl, POINTER(c_int)]
     Asap3IsRecorderBusLoggingEnableByModule.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 855
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 848
 if _libs["CANapAPI64.dll"].has("Asap3GetRecorderMdfFileName", "stdcall"):
     Asap3GetRecorderMdfFileName = _libs["CANapAPI64.dll"].get("Asap3GetRecorderMdfFileName", "stdcall")
     Asap3GetRecorderMdfFileName.argtypes = [TAsap3Hdl, TRecorderID, String, POINTER(DWORD)]
     Asap3GetRecorderMdfFileName.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 856
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 849
 if _libs["CANapAPI64.dll"].has("Asap3SetRecorderMdfFileName", "stdcall"):
     Asap3SetRecorderMdfFileName = _libs["CANapAPI64.dll"].get("Asap3SetRecorderMdfFileName", "stdcall")
     Asap3SetRecorderMdfFileName.argtypes = [TAsap3Hdl, TRecorderID, String]
     Asap3SetRecorderMdfFileName.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 857
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 850
 if _libs["CANapAPI64.dll"].has("Asap3SetRecorderDataReduction", "stdcall"):
     Asap3SetRecorderDataReduction = _libs["CANapAPI64.dll"].get("Asap3SetRecorderDataReduction", "stdcall")
     Asap3SetRecorderDataReduction.argtypes = [TAsap3Hdl, TRecorderID, c_int]
     Asap3SetRecorderDataReduction.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 858
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 851
 if _libs["CANapAPI64.dll"].has("Asap3GetRecorderDataReduction", "stdcall"):
     Asap3GetRecorderDataReduction = _libs["CANapAPI64.dll"].get("Asap3GetRecorderDataReduction", "stdcall")
     Asap3GetRecorderDataReduction.argtypes = [TAsap3Hdl, TRecorderID, POINTER(c_int)]
     Asap3GetRecorderDataReduction.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 859
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 852
 if _libs["CANapAPI64.dll"].has("Asap3GetRecorderState", "stdcall"):
     Asap3GetRecorderState = _libs["CANapAPI64.dll"].get("Asap3GetRecorderState", "stdcall")
     Asap3GetRecorderState.argtypes = [TAsap3Hdl, TRecorderID, POINTER(enum_EnRecorderState)]
     Asap3GetRecorderState.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 860
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 853
 if _libs["CANapAPI64.dll"].has("Asap3PauseRecorder", "stdcall"):
     Asap3PauseRecorder = _libs["CANapAPI64.dll"].get("Asap3PauseRecorder", "stdcall")
     Asap3PauseRecorder.argtypes = [TAsap3Hdl, TRecorderID, c_bool]
     Asap3PauseRecorder.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 861
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 854
 if _libs["CANapAPI64.dll"].has("Asap3StartRecorder", "stdcall"):
     Asap3StartRecorder = _libs["CANapAPI64.dll"].get("Asap3StartRecorder", "stdcall")
     Asap3StartRecorder.argtypes = [TAsap3Hdl, TRecorderID]
     Asap3StartRecorder.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 862
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 855
 if _libs["CANapAPI64.dll"].has("Asap3StopRecorder", "stdcall"):
     Asap3StopRecorder = _libs["CANapAPI64.dll"].get("Asap3StopRecorder", "stdcall")
     Asap3StopRecorder.argtypes = [TAsap3Hdl, TRecorderID, c_bool]
     Asap3StopRecorder.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 863
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 856
 if _libs["CANapAPI64.dll"].has("Asap3EnableRecorder", "stdcall"):
     Asap3EnableRecorder = _libs["CANapAPI64.dll"].get("Asap3EnableRecorder", "stdcall")
     Asap3EnableRecorder.argtypes = [TAsap3Hdl, TRecorderID, c_bool]
     Asap3EnableRecorder.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 864
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 857
 if _libs["CANapAPI64.dll"].has("Asap3IsRecorderEnabled", "stdcall"):
     Asap3IsRecorderEnabled = _libs["CANapAPI64.dll"].get("Asap3IsRecorderEnabled", "stdcall")
     Asap3IsRecorderEnabled.argtypes = [TAsap3Hdl, TRecorderID, POINTER(c_bool)]
     Asap3IsRecorderEnabled.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 865
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 858
 if _libs["CANapAPI64.dll"].has("Asap3ResetDataAcquisitionChnlsByModule", "stdcall"):
     Asap3ResetDataAcquisitionChnlsByModule = _libs["CANapAPI64.dll"].get("Asap3ResetDataAcquisitionChnlsByModule", "stdcall")
     Asap3ResetDataAcquisitionChnlsByModule.argtypes = [TAsap3Hdl, TModulHdl]
     Asap3ResetDataAcquisitionChnlsByModule.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 866
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 859
 if _libs["CANapAPI64.dll"].has("Asap3ResetDataAcquisitionChnls", "stdcall"):
     Asap3ResetDataAcquisitionChnls = _libs["CANapAPI64.dll"].get("Asap3ResetDataAcquisitionChnls", "stdcall")
     Asap3ResetDataAcquisitionChnls.argtypes = [TAsap3Hdl]
     Asap3ResetDataAcquisitionChnls.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 867
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 860
 if _libs["CANapAPI64.dll"].has("Asap3TimeSync", "stdcall"):
     Asap3TimeSync = _libs["CANapAPI64.dll"].get("Asap3TimeSync", "stdcall")
     Asap3TimeSync.argtypes = [TAsap3Hdl, c_bool]
     Asap3TimeSync.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 868
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 861
 if _libs["CANapAPI64.dll"].has("Asap3IsTimeSyncEnabled", "stdcall"):
     Asap3IsTimeSyncEnabled = _libs["CANapAPI64.dll"].get("Asap3IsTimeSyncEnabled", "stdcall")
     Asap3IsTimeSyncEnabled.argtypes = [TAsap3Hdl, POINTER(c_bool)]
     Asap3IsTimeSyncEnabled.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 869
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 862
 if _libs["CANapAPI64.dll"].has("Asap3StartDataAcquisition", "stdcall"):
     Asap3StartDataAcquisition = _libs["CANapAPI64.dll"].get("Asap3StartDataAcquisition", "stdcall")
     Asap3StartDataAcquisition.argtypes = [TAsap3Hdl]
     Asap3StartDataAcquisition.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 870
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 863
 if _libs["CANapAPI64.dll"].has("Asap3ConnectDataAcquisition", "stdcall"):
     Asap3ConnectDataAcquisition = _libs["CANapAPI64.dll"].get("Asap3ConnectDataAcquisition", "stdcall")
     Asap3ConnectDataAcquisition.argtypes = [TAsap3Hdl]
     Asap3ConnectDataAcquisition.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 871
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 864
 if _libs["CANapAPI64.dll"].has("Asap3StartResumedDataAcquisition", "stdcall"):
     Asap3StartResumedDataAcquisition = _libs["CANapAPI64.dll"].get("Asap3StartResumedDataAcquisition", "stdcall")
     Asap3StartResumedDataAcquisition.argtypes = [TAsap3Hdl]
     Asap3StartResumedDataAcquisition.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 872
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 865
 if _libs["CANapAPI64.dll"].has("Asap3StopDataAcquisition", "stdcall"):
     Asap3StopDataAcquisition = _libs["CANapAPI64.dll"].get("Asap3StopDataAcquisition", "stdcall")
     Asap3StopDataAcquisition.argtypes = [TAsap3Hdl]
     Asap3StopDataAcquisition.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 873
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 866
 if _libs["CANapAPI64.dll"].has("Asap3DisconnectDataAcquisition", "stdcall"):
     Asap3DisconnectDataAcquisition = _libs["CANapAPI64.dll"].get("Asap3DisconnectDataAcquisition", "stdcall")
     Asap3DisconnectDataAcquisition.argtypes = [TAsap3Hdl]
     Asap3DisconnectDataAcquisition.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 874
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 867
 if _libs["CANapAPI64.dll"].has("Asap3GetFifoLevel", "stdcall"):
     Asap3GetFifoLevel = _libs["CANapAPI64.dll"].get("Asap3GetFifoLevel", "stdcall")
     Asap3GetFifoLevel.argtypes = [TAsap3Hdl, TModulHdl, c_ushort]
     Asap3GetFifoLevel.restype = c_long
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 875
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 868
 if _libs["CANapAPI64.dll"].has("Asap3CheckOverrun", "stdcall"):
     Asap3CheckOverrun = _libs["CANapAPI64.dll"].get("Asap3CheckOverrun", "stdcall")
     Asap3CheckOverrun.argtypes = [TAsap3Hdl, TModulHdl, c_ushort, c_bool]
     Asap3CheckOverrun.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 876
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 869
 if _libs["CANapAPI64.dll"].has("Asap3GetNextSample", "stdcall"):
     Asap3GetNextSample = _libs["CANapAPI64.dll"].get("Asap3GetNextSample", "stdcall")
     Asap3GetNextSample.argtypes = [TAsap3Hdl, TModulHdl, c_ushort, POINTER(TTime), POINTER(POINTER(c_double))]
     Asap3GetNextSample.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 883
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 876
 if _libs["CANapAPI64.dll"].has("Asap3GetCurrentValues", "stdcall"):
     Asap3GetCurrentValues = _libs["CANapAPI64.dll"].get("Asap3GetCurrentValues", "stdcall")
     Asap3GetCurrentValues.argtypes = [TAsap3Hdl, TModulHdl, c_ushort, POINTER(TTime), POINTER(c_double), c_ushort]
     Asap3GetCurrentValues.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 892
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 885
 if _libs["CANapAPI64.dll"].has("Asap3GetNextSampleBlock", "stdcall"):
     Asap3GetNextSampleBlock = _libs["CANapAPI64.dll"].get("Asap3GetNextSampleBlock", "stdcall")
     Asap3GetNextSampleBlock.argtypes = [TAsap3Hdl, TModulHdl, c_ushort, c_long, POINTER(POINTER(struct_tSampleBlockObject))]
     Asap3GetNextSampleBlock.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 897
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 890
 if _libs["CANapAPI64.dll"].has("Asap3UseNAN", "stdcall"):
     Asap3UseNAN = _libs["CANapAPI64.dll"].get("Asap3UseNAN", "stdcall")
     Asap3UseNAN.argtypes = [TAsap3Hdl, c_bool]
     Asap3UseNAN.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 898
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 891
 if _libs["CANapAPI64.dll"].has("Asap3IsNANUsed", "stdcall"):
     Asap3IsNANUsed = _libs["CANapAPI64.dll"].get("Asap3IsNANUsed", "stdcall")
     Asap3IsNANUsed.argtypes = [TAsap3Hdl, POINTER(c_bool)]
     Asap3IsNANUsed.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 899
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 892
 if _libs["CANapAPI64.dll"].has("Asap3SetMdfFilename", "stdcall"):
     Asap3SetMdfFilename = _libs["CANapAPI64.dll"].get("Asap3SetMdfFilename", "stdcall")
     Asap3SetMdfFilename.argtypes = [TAsap3Hdl, String]
     Asap3SetMdfFilename.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 900
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 893
 if _libs["CANapAPI64.dll"].has("Asap3GetMdfFilename", "stdcall"):
     Asap3GetMdfFilename = _libs["CANapAPI64.dll"].get("Asap3GetMdfFilename", "stdcall")
     Asap3GetMdfFilename.argtypes = [TAsap3Hdl, POINTER(POINTER(c_char))]
     Asap3GetMdfFilename.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 902
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 895
 if _libs["CANapAPI64.dll"].has("Asap3MatlabConversion", "stdcall"):
     Asap3MatlabConversion = _libs["CANapAPI64.dll"].get("Asap3MatlabConversion", "stdcall")
     Asap3MatlabConversion.argtypes = [TAsap3Hdl, String, String]
     Asap3MatlabConversion.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 903
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 896
 if _libs["CANapAPI64.dll"].has("Asap3MatlabConversionAsync", "stdcall"):
     Asap3MatlabConversionAsync = _libs["CANapAPI64.dll"].get("Asap3MatlabConversionAsync", "stdcall")
     Asap3MatlabConversionAsync.argtypes = [TAsap3Hdl, String, String]
     Asap3MatlabConversionAsync.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 904
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 897
 if _libs["CANapAPI64.dll"].has("Asap3MDFConverterCount", "stdcall"):
     Asap3MDFConverterCount = _libs["CANapAPI64.dll"].get("Asap3MDFConverterCount", "stdcall")
     Asap3MDFConverterCount.argtypes = [TAsap3Hdl, POINTER(c_int)]
     Asap3MDFConverterCount.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 905
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 898
 if _libs["CANapAPI64.dll"].has("Asap3MDFConvert", "stdcall"):
     Asap3MDFConvert = _libs["CANapAPI64.dll"].get("Asap3MDFConvert", "stdcall")
     Asap3MDFConvert.argtypes = [TAsap3Hdl, String, String, String, c_bool]
     Asap3MDFConvert.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 906
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 899
 if _libs["CANapAPI64.dll"].has("Asap3MDFConverterInfo", "stdcall"):
     Asap3MDFConverterInfo = _libs["CANapAPI64.dll"].get("Asap3MDFConverterInfo", "stdcall")
     Asap3MDFConverterInfo.argtypes = [TAsap3Hdl, c_int, POINTER(struct_TConverterInfo)]
     Asap3MDFConverterInfo.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 907
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 900
 if _libs["CANapAPI64.dll"].has("Asap3GetNetworkName", "stdcall"):
     Asap3GetNetworkName = _libs["CANapAPI64.dll"].get("Asap3GetNetworkName", "stdcall")
     Asap3GetNetworkName.argtypes = [TAsap3Hdl, TModulHdl, String, POINTER(c_uint)]
     Asap3GetNetworkName.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 908
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 901
 if _libs["CANapAPI64.dll"].has("Asap3GetNetworkDevices", "stdcall"):
     Asap3GetNetworkDevices = _libs["CANapAPI64.dll"].get("Asap3GetNetworkDevices", "stdcall")
     Asap3GetNetworkDevices.argtypes = [TAsap3Hdl, String, POINTER(TModulHdl), POINTER(c_uint)]
     Asap3GetNetworkDevices.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 909
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 902
 if _libs["CANapAPI64.dll"].has("Asap3ActivateNetwork", "stdcall"):
     Asap3ActivateNetwork = _libs["CANapAPI64.dll"].get("Asap3ActivateNetwork", "stdcall")
     Asap3ActivateNetwork.argtypes = [TAsap3Hdl, String, c_bool]
     Asap3ActivateNetwork.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 910
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 903
 if _libs["CANapAPI64.dll"].has("Asap3IsNetworkActivated", "stdcall"):
     Asap3IsNetworkActivated = _libs["CANapAPI64.dll"].get("Asap3IsNetworkActivated", "stdcall")
     Asap3IsNetworkActivated.argtypes = [TAsap3Hdl, String, POINTER(c_bool)]
     Asap3IsNetworkActivated.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 911
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 904
 if _libs["CANapAPI64.dll"].has("Asap3GetSecProfileCount", "stdcall"):
     Asap3GetSecProfileCount = _libs["CANapAPI64.dll"].get("Asap3GetSecProfileCount", "stdcall")
     Asap3GetSecProfileCount.argtypes = [TAsap3Hdl, POINTER(c_uint)]
     Asap3GetSecProfileCount.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 912
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 905
 if _libs["CANapAPI64.dll"].has("Asap3GetSecProfileIdentifier", "stdcall"):
     Asap3GetSecProfileIdentifier = _libs["CANapAPI64.dll"].get("Asap3GetSecProfileIdentifier", "stdcall")
     Asap3GetSecProfileIdentifier.argtypes = [TAsap3Hdl, String, POINTER(DWORD)]
     Asap3GetSecProfileIdentifier.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 913
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 906
 if _libs["CANapAPI64.dll"].has("Asap3GetSecProfileInfo", "stdcall"):
     Asap3GetSecProfileInfo = _libs["CANapAPI64.dll"].get("Asap3GetSecProfileInfo", "stdcall")
     Asap3GetSecProfileInfo.argtypes = [TAsap3Hdl, c_uint, POINTER(struct_SecProfileEntry)]
     Asap3GetSecProfileInfo.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 914
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 907
 if _libs["CANapAPI64.dll"].has("Asap3AddSecProfileToNetwork", "stdcall"):
     Asap3AddSecProfileToNetwork = _libs["CANapAPI64.dll"].get("Asap3AddSecProfileToNetwork", "stdcall")
     Asap3AddSecProfileToNetwork.argtypes = [TAsap3Hdl, c_uint, String]
     Asap3AddSecProfileToNetwork.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 915
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 908
 if _libs["CANapAPI64.dll"].has("Asap3_CCP_Request", "stdcall"):
     Asap3_CCP_Request = _libs["CANapAPI64.dll"].get("Asap3_CCP_Request", "stdcall")
     Asap3_CCP_Request.argtypes = [TAsap3Hdl, TModulHdl, POINTER(c_ubyte), c_ulong, c_ulong, POINTER(c_ubyte), c_ulong, POINTER(c_ulong)]
     Asap3_CCP_Request.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 923
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 916
 if _libs["CANapAPI64.dll"].has("Asap3ExecuteScript", "stdcall"):
     Asap3ExecuteScript = _libs["CANapAPI64.dll"].get("Asap3ExecuteScript", "stdcall")
     Asap3ExecuteScript.argtypes = [TAsap3Hdl, TModulHdl, c_bool, String]
     Asap3ExecuteScript.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 927
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 920
 if _libs["CANapAPI64.dll"].has("Asap3SelectObjects", "stdcall"):
     Asap3SelectObjects = _libs["CANapAPI64.dll"].get("Asap3SelectObjects", "stdcall")
     Asap3SelectObjects.argtypes = [TAsap3Hdl, TModulHdl, enum_TObjectType, String]
     Asap3SelectObjects.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 929
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 922
 if _libs["CANapAPI64.dll"].has("Asap3RestoreWndSize", "stdcall"):
     Asap3RestoreWndSize = _libs["CANapAPI64.dll"].get("Asap3RestoreWndSize", "stdcall")
     Asap3RestoreWndSize.argtypes = [TAsap3Hdl]
     Asap3RestoreWndSize.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 930
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 923
 if _libs["CANapAPI64.dll"].has("Asap3RestoreWndSize2", "stdcall"):
     Asap3RestoreWndSize2 = _libs["CANapAPI64.dll"].get("Asap3RestoreWndSize2", "stdcall")
     Asap3RestoreWndSize2.argtypes = [TAsap3Hdl, c_long]
     Asap3RestoreWndSize2.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 931
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 924
 if _libs["CANapAPI64.dll"].has("Asap3CopyBinaryFile", "stdcall"):
     Asap3CopyBinaryFile = _libs["CANapAPI64.dll"].get("Asap3CopyBinaryFile", "stdcall")
     Asap3CopyBinaryFile.argtypes = [TAsap3Hdl, TModulHdl, TAsap3FileType, TAsap3FileType, String]
     Asap3CopyBinaryFile.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 932
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 925
 if _libs["CANapAPI64.dll"].has("Asap3ReadObjectParameter", "stdcall"):
     Asap3ReadObjectParameter = _libs["CANapAPI64.dll"].get("Asap3ReadObjectParameter", "stdcall")
     Asap3ReadObjectParameter.argtypes = [TAsap3Hdl, TModulHdl, String, enum_TFormat, POINTER(TAsap3DataType), POINTER(c_ulong), POINTER(c_double), POINTER(c_double), POINTER(c_double)]
     Asap3ReadObjectParameter.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 933
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 926
 if _libs["CANapAPI64.dll"].has("Asap3ExecuteScriptEx", "stdcall"):
     Asap3ExecuteScriptEx = _libs["CANapAPI64.dll"].get("Asap3ExecuteScriptEx", "stdcall")
     Asap3ExecuteScriptEx.argtypes = [TAsap3Hdl, TModulHdl, c_bool, String, POINTER(TScriptHdl)]
     Asap3ExecuteScriptEx.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 938
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 931
 if _libs["CANapAPI64.dll"].has("Asap3GetScriptState", "stdcall"):
     Asap3GetScriptState = _libs["CANapAPI64.dll"].get("Asap3GetScriptState", "stdcall")
     Asap3GetScriptState.argtypes = [TAsap3Hdl, TScriptHdl, POINTER(enum_TScriptStatus), String, POINTER(DWORD)]
     Asap3GetScriptState.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 939
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 932
 if _libs["CANapAPI64.dll"].has("Asap3StopScript", "stdcall"):
     Asap3StopScript = _libs["CANapAPI64.dll"].get("Asap3StopScript", "stdcall")
     Asap3StopScript.argtypes = [TAsap3Hdl, TScriptHdl]
     Asap3StopScript.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 941
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 934
 if _libs["CANapAPI64.dll"].has("Asap3GetScriptResultValue", "stdcall"):
     Asap3GetScriptResultValue = _libs["CANapAPI64.dll"].get("Asap3GetScriptResultValue", "stdcall")
     Asap3GetScriptResultValue.argtypes = [TAsap3Hdl, TScriptHdl, POINTER(c_double)]
     Asap3GetScriptResultValue.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 942
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 935
 if _libs["CANapAPI64.dll"].has("Asap3GetScriptResultString", "stdcall"):
     Asap3GetScriptResultString = _libs["CANapAPI64.dll"].get("Asap3GetScriptResultString", "stdcall")
     Asap3GetScriptResultString.argtypes = [TAsap3Hdl, TScriptHdl, String, POINTER(DWORD)]
     Asap3GetScriptResultString.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 943
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 936
 if _libs["CANapAPI64.dll"].has("Asap3ReleaseScript", "stdcall"):
     Asap3ReleaseScript = _libs["CANapAPI64.dll"].get("Asap3ReleaseScript", "stdcall")
     Asap3ReleaseScript.argtypes = [TAsap3Hdl, TScriptHdl]
     Asap3ReleaseScript.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 944
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 937
 if _libs["CANapAPI64.dll"].has("Asap3DiagEnableTesterPresent", "stdcall"):
     Asap3DiagEnableTesterPresent = _libs["CANapAPI64.dll"].get("Asap3DiagEnableTesterPresent", "stdcall")
     Asap3DiagEnableTesterPresent.argtypes = [TAsap3Hdl, TModulHdl, c_bool]
     Asap3DiagEnableTesterPresent.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 945
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 938
 if _libs["CANapAPI64.dll"].has("Asap3DiagIsTesterPresentEnabled", "stdcall"):
     Asap3DiagIsTesterPresentEnabled = _libs["CANapAPI64.dll"].get("Asap3DiagIsTesterPresentEnabled", "stdcall")
     Asap3DiagIsTesterPresentEnabled.argtypes = [TAsap3Hdl, TModulHdl, POINTER(c_bool)]
     Asap3DiagIsTesterPresentEnabled.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 946
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 939
 if _libs["CANapAPI64.dll"].has("Asap3DiagExecuteJob", "stdcall"):
     Asap3DiagExecuteJob = _libs["CANapAPI64.dll"].get("Asap3DiagExecuteJob", "stdcall")
     Asap3DiagExecuteJob.argtypes = [TAsap3Hdl, TModulHdl, String, String, c_bool, POINTER(POINTER(struct_DiagJobResponse))]
     Asap3DiagExecuteJob.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 947
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 940
 if _libs["CANapAPI64.dll"].has("Asap3DiagCreateRawRequest", "stdcall"):
     Asap3DiagCreateRawRequest = _libs["CANapAPI64.dll"].get("Asap3DiagCreateRawRequest", "stdcall")
     Asap3DiagCreateRawRequest.argtypes = [TAsap3Hdl, TModulHdl, POINTER(c_ubyte), c_uint, POINTER(TAsap3DiagHdl)]
     Asap3DiagCreateRawRequest.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 948
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 941
 if _libs["CANapAPI64.dll"].has("Asap3DiagCreateRawRequest2", "stdcall"):
     Asap3DiagCreateRawRequest2 = _libs["CANapAPI64.dll"].get("Asap3DiagCreateRawRequest2", "stdcall")
     Asap3DiagCreateRawRequest2.argtypes = [TAsap3Hdl, TModulHdl, POINTER(c_ubyte), c_uint, POINTER(TAsap3DiagHdl)]
     Asap3DiagCreateRawRequest2.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 949
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 942
 if _libs["CANapAPI64.dll"].has("Asap3DiagCreateSymbolicRequest", "stdcall"):
     Asap3DiagCreateSymbolicRequest = _libs["CANapAPI64.dll"].get("Asap3DiagCreateSymbolicRequest", "stdcall")
     Asap3DiagCreateSymbolicRequest.argtypes = [TAsap3Hdl, TModulHdl, String, POINTER(TAsap3DiagHdl)]
     Asap3DiagCreateSymbolicRequest.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 951
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 944
 if _libs["CANapAPI64.dll"].has("Asap3DiagExecute", "stdcall"):
     Asap3DiagExecute = _libs["CANapAPI64.dll"].get("Asap3DiagExecute", "stdcall")
     Asap3DiagExecute.argtypes = [TAsap3Hdl, TAsap3DiagHdl, c_int]
     Asap3DiagExecute.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 952
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 945
 if _libs["CANapAPI64.dll"].has("Asap3DiagGetServiceState", "stdcall"):
     Asap3DiagGetServiceState = _libs["CANapAPI64.dll"].get("Asap3DiagGetServiceState", "stdcall")
     Asap3DiagGetServiceState.argtypes = [TAsap3Hdl, TAsap3DiagHdl, POINTER(enum_eServiceStates)]
     Asap3DiagGetServiceState.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 953
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 946
 if _libs["CANapAPI64.dll"].has("Asap3DiagReleaseService", "stdcall"):
     Asap3DiagReleaseService = _libs["CANapAPI64.dll"].get("Asap3DiagReleaseService", "stdcall")
     Asap3DiagReleaseService.argtypes = [TAsap3Hdl, TAsap3DiagHdl]
     Asap3DiagReleaseService.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 954
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 947
 if _libs["CANapAPI64.dll"].has("Asap3DiagSetStringParameter", "stdcall"):
     Asap3DiagSetStringParameter = _libs["CANapAPI64.dll"].get("Asap3DiagSetStringParameter", "stdcall")
     Asap3DiagSetStringParameter.argtypes = [TAsap3Hdl, TAsap3DiagHdl, String, String]
     Asap3DiagSetStringParameter.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 955
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 948
 if _libs["CANapAPI64.dll"].has("Asap3DiagSetRawParameter", "stdcall"):
     Asap3DiagSetRawParameter = _libs["CANapAPI64.dll"].get("Asap3DiagSetRawParameter", "stdcall")
     Asap3DiagSetRawParameter.argtypes = [TAsap3Hdl, TAsap3DiagHdl, String, POINTER(c_ubyte), DWORD]
     Asap3DiagSetRawParameter.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 956
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 949
 if _libs["CANapAPI64.dll"].has("Asap3DiagSetNumericParameter", "stdcall"):
     Asap3DiagSetNumericParameter = _libs["CANapAPI64.dll"].get("Asap3DiagSetNumericParameter", "stdcall")
     Asap3DiagSetNumericParameter.argtypes = [TAsap3Hdl, TAsap3DiagHdl, String, POINTER(struct_DiagNumericParameter)]
     Asap3DiagSetNumericParameter.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 957
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 950
 if _libs["CANapAPI64.dll"].has("Asap3DiagGetResponseCount", "stdcall"):
     Asap3DiagGetResponseCount = _libs["CANapAPI64.dll"].get("Asap3DiagGetResponseCount", "stdcall")
     Asap3DiagGetResponseCount.argtypes = [TAsap3Hdl, TAsap3DiagHdl, POINTER(c_uint)]
     Asap3DiagGetResponseCount.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 958
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 951
 if _libs["CANapAPI64.dll"].has("Asap3DiagIsPositiveResponse", "stdcall"):
     Asap3DiagIsPositiveResponse = _libs["CANapAPI64.dll"].get("Asap3DiagIsPositiveResponse", "stdcall")
     Asap3DiagIsPositiveResponse.argtypes = [TAsap3Hdl, TAsap3DiagHdl, c_long, POINTER(c_int)]
     Asap3DiagIsPositiveResponse.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 959
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 952
 if _libs["CANapAPI64.dll"].has("Asap3DiagGetResponseStream", "stdcall"):
     Asap3DiagGetResponseStream = _libs["CANapAPI64.dll"].get("Asap3DiagGetResponseStream", "stdcall")
     Asap3DiagGetResponseStream.argtypes = [TAsap3Hdl, TAsap3DiagHdl, POINTER(c_ubyte), POINTER(DWORD), c_long]
     Asap3DiagGetResponseStream.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 960
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 953
 if _libs["CANapAPI64.dll"].has("Asap3DiagGetStringResponseParameter", "stdcall"):
     Asap3DiagGetStringResponseParameter = _libs["CANapAPI64.dll"].get("Asap3DiagGetStringResponseParameter", "stdcall")
     Asap3DiagGetStringResponseParameter.argtypes = [TAsap3Hdl, TAsap3DiagHdl, String, c_long, String, POINTER(DWORD)]
     Asap3DiagGetStringResponseParameter.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 961
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 954
 if _libs["CANapAPI64.dll"].has("Asap3DiagGetRawResponseParameter", "stdcall"):
     Asap3DiagGetRawResponseParameter = _libs["CANapAPI64.dll"].get("Asap3DiagGetRawResponseParameter", "stdcall")
     Asap3DiagGetRawResponseParameter.argtypes = [TAsap3Hdl, TAsap3DiagHdl, String, c_long, POINTER(c_ubyte), POINTER(DWORD)]
     Asap3DiagGetRawResponseParameter.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 962
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 955
 if _libs["CANapAPI64.dll"].has("Asap3DiagGetNumericResponseParameter", "stdcall"):
     Asap3DiagGetNumericResponseParameter = _libs["CANapAPI64.dll"].get("Asap3DiagGetNumericResponseParameter", "stdcall")
     Asap3DiagGetNumericResponseParameter.argtypes = [TAsap3Hdl, TAsap3DiagHdl, String, c_long, POINTER(struct_DiagNumericParameter)]
     Asap3DiagGetNumericResponseParameter.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 963
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 956
 if _libs["CANapAPI64.dll"].has("Asap3DiagIsComplexResponseParameter", "stdcall"):
     Asap3DiagIsComplexResponseParameter = _libs["CANapAPI64.dll"].get("Asap3DiagIsComplexResponseParameter", "stdcall")
     Asap3DiagIsComplexResponseParameter.argtypes = [TAsap3Hdl, TAsap3DiagHdl, String, c_long, POINTER(c_int)]
     Asap3DiagIsComplexResponseParameter.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 964
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 957
 if _libs["CANapAPI64.dll"].has("Asap3DiagGetComplexNumericResponseParameter", "stdcall"):
     Asap3DiagGetComplexNumericResponseParameter = _libs["CANapAPI64.dll"].get("Asap3DiagGetComplexNumericResponseParameter", "stdcall")
     Asap3DiagGetComplexNumericResponseParameter.argtypes = [TAsap3Hdl, TAsap3DiagHdl, String, c_long, String, c_ulong, POINTER(struct_DiagNumericParameter)]
     Asap3DiagGetComplexNumericResponseParameter.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 965
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 958
 if _libs["CANapAPI64.dll"].has("Asap3DiagGetComplexStringResponseParameter", "stdcall"):
     Asap3DiagGetComplexStringResponseParameter = _libs["CANapAPI64.dll"].get("Asap3DiagGetComplexStringResponseParameter", "stdcall")
     Asap3DiagGetComplexStringResponseParameter.argtypes = [TAsap3Hdl, TAsap3DiagHdl, String, c_long, String, c_ulong, String, POINTER(DWORD)]
     Asap3DiagGetComplexStringResponseParameter.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 966
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 959
 if _libs["CANapAPI64.dll"].has("Asap3DiagGetComplexRawResponseParameter", "stdcall"):
     Asap3DiagGetComplexRawResponseParameter = _libs["CANapAPI64.dll"].get("Asap3DiagGetComplexRawResponseParameter", "stdcall")
     Asap3DiagGetComplexRawResponseParameter.argtypes = [TAsap3Hdl, TAsap3DiagHdl, String, c_long, String, c_ulong, String, POINTER(DWORD)]
     Asap3DiagGetComplexRawResponseParameter.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 967
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 960
 if _libs["CANapAPI64.dll"].has("Asap3DiagGetResponseCode", "stdcall"):
     Asap3DiagGetResponseCode = _libs["CANapAPI64.dll"].get("Asap3DiagGetResponseCode", "stdcall")
     Asap3DiagGetResponseCode.argtypes = [TAsap3Hdl, TAsap3DiagHdl, c_long, POINTER(c_ubyte)]
     Asap3DiagGetResponseCode.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 968
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 961
 if _libs["CANapAPI64.dll"].has("Asap3DiagGetComplexIterationCount", "stdcall"):
     Asap3DiagGetComplexIterationCount = _libs["CANapAPI64.dll"].get("Asap3DiagGetComplexIterationCount", "stdcall")
     Asap3DiagGetComplexIterationCount.argtypes = [TAsap3Hdl, TAsap3DiagHdl, String, c_long, POINTER(c_ulong)]
     Asap3DiagGetComplexIterationCount.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 969
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 962
 if _libs["CANapAPI64.dll"].has("Asap3LoadCNAFile", "stdcall"):
     Asap3LoadCNAFile = _libs["CANapAPI64.dll"].get("Asap3LoadCNAFile", "stdcall")
     Asap3LoadCNAFile.argtypes = [TAsap3Hdl, String]
     Asap3LoadCNAFile.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 970
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 963
 if _libs["CANapAPI64.dll"].has("Asap3GetCNAFilename", "stdcall"):
     Asap3GetCNAFilename = _libs["CANapAPI64.dll"].get("Asap3GetCNAFilename", "stdcall")
     Asap3GetCNAFilename.argtypes = [TAsap3Hdl, String, POINTER(c_uint)]
     Asap3GetCNAFilename.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 973
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 966
 if _libs["CANapAPI64.dll"].has("Asap3GetCanapeModuleParam", "stdcall"):
     Asap3GetCanapeModuleParam = _libs["CANapAPI64.dll"].get("Asap3GetCanapeModuleParam", "stdcall")
     Asap3GetCanapeModuleParam.argtypes = [TAsap3Hdl, TModulHdl, String, String, POINTER(c_uint)]
     Asap3GetCanapeModuleParam.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 975
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 968
 if _libs["CANapAPI64.dll"].has("Asap3SetCanapeModuleParam", "stdcall"):
     Asap3SetCanapeModuleParam = _libs["CANapAPI64.dll"].get("Asap3SetCanapeModuleParam", "stdcall")
     Asap3SetCanapeModuleParam.argtypes = [TAsap3Hdl, TModulHdl, String, String]
     Asap3SetCanapeModuleParam.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 978
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 971
 if _libs["CANapAPI64.dll"].has("Asap3GetCanapeProjectParam", "stdcall"):
     Asap3GetCanapeProjectParam = _libs["CANapAPI64.dll"].get("Asap3GetCanapeProjectParam", "stdcall")
     Asap3GetCanapeProjectParam.argtypes = [TAsap3Hdl, String, String, String, POINTER(c_uint)]
     Asap3GetCanapeProjectParam.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 979
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 972
 if _libs["CANapAPI64.dll"].has("Asap3SetCanapeProjectParam", "stdcall"):
     Asap3SetCanapeProjectParam = _libs["CANapAPI64.dll"].get("Asap3SetCanapeProjectParam", "stdcall")
     Asap3SetCanapeProjectParam.argtypes = [TAsap3Hdl, String, String, String]
     Asap3SetCanapeProjectParam.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 980
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 973
 if _libs["CANapAPI64.dll"].has("Asap3FlashSetODXContainer", "stdcall"):
     Asap3FlashSetODXContainer = _libs["CANapAPI64.dll"].get("Asap3FlashSetODXContainer", "stdcall")
     Asap3FlashSetODXContainer.argtypes = [TAsap3Hdl, TModulHdl, String]
     Asap3FlashSetODXContainer.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 981
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 974
 if _libs["CANapAPI64.dll"].has("Asap3FlashGetSessionCount", "stdcall"):
     Asap3FlashGetSessionCount = _libs["CANapAPI64.dll"].get("Asap3FlashGetSessionCount", "stdcall")
     Asap3FlashGetSessionCount.argtypes = [TAsap3Hdl, TModulHdl, POINTER(c_ulong)]
     Asap3FlashGetSessionCount.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 982
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 975
 if _libs["CANapAPI64.dll"].has("Asap3FlashGetSessionName", "stdcall"):
     Asap3FlashGetSessionName = _libs["CANapAPI64.dll"].get("Asap3FlashGetSessionName", "stdcall")
     Asap3FlashGetSessionName.argtypes = [TAsap3Hdl, TModulHdl, c_ulong, String, POINTER(c_long)]
     Asap3FlashGetSessionName.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 983
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 976
 if _libs["CANapAPI64.dll"].has("Asap3FlashGetJobCount", "stdcall"):
     Asap3FlashGetJobCount = _libs["CANapAPI64.dll"].get("Asap3FlashGetJobCount", "stdcall")
     Asap3FlashGetJobCount.argtypes = [TAsap3Hdl, TModulHdl, POINTER(c_ulong)]
     Asap3FlashGetJobCount.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 984
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 977
 if _libs["CANapAPI64.dll"].has("Asap3FlashGetJobName", "stdcall"):
     Asap3FlashGetJobName = _libs["CANapAPI64.dll"].get("Asap3FlashGetJobName", "stdcall")
     Asap3FlashGetJobName.argtypes = [TAsap3Hdl, TModulHdl, c_ulong, String, POINTER(c_long)]
     Asap3FlashGetJobName.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 985
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 978
 if _libs["CANapAPI64.dll"].has("Asap3FlashStartFlashJob", "stdcall"):
     Asap3FlashStartFlashJob = _libs["CANapAPI64.dll"].get("Asap3FlashStartFlashJob", "stdcall")
     Asap3FlashStartFlashJob.argtypes = [TAsap3Hdl, TModulHdl, String, String, String]
     Asap3FlashStartFlashJob.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 986
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 979
 if _libs["CANapAPI64.dll"].has("Asap3FlashGetJobState", "stdcall"):
     Asap3FlashGetJobState = _libs["CANapAPI64.dll"].get("Asap3FlashGetJobState", "stdcall")
     Asap3FlashGetJobState.argtypes = [TAsap3Hdl, TModulHdl, POINTER(c_double), POINTER(c_int), POINTER(c_long), String, POINTER(c_ulong)]
     Asap3FlashGetJobState.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 987
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 980
 if _libs["CANapAPI64.dll"].has("Asap3FlashStopJob", "stdcall"):
     Asap3FlashStopJob = _libs["CANapAPI64.dll"].get("Asap3FlashStopJob", "stdcall")
     Asap3FlashStopJob.argtypes = [TAsap3Hdl, TModulHdl]
     Asap3FlashStopJob.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 988
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 981
 if _libs["CANapAPI64.dll"].has("Asap3SetInteractiveMode", "stdcall"):
     Asap3SetInteractiveMode = _libs["CANapAPI64.dll"].get("Asap3SetInteractiveMode", "stdcall")
     Asap3SetInteractiveMode.argtypes = [TAsap3Hdl, c_bool]
     Asap3SetInteractiveMode.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 989
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 982
 if _libs["CANapAPI64.dll"].has("Asap3GetInteractiveMode", "stdcall"):
     Asap3GetInteractiveMode = _libs["CANapAPI64.dll"].get("Asap3GetInteractiveMode", "stdcall")
     Asap3GetInteractiveMode.argtypes = [TAsap3Hdl, POINTER(c_bool)]
     Asap3GetInteractiveMode.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 990
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 983
 if _libs["CANapAPI64.dll"].has("Asap3RegisterCallBack", "stdcall"):
     Asap3RegisterCallBack = _libs["CANapAPI64.dll"].get("Asap3RegisterCallBack", "stdcall")
     Asap3RegisterCallBack.argtypes = [TAsap3Hdl, enum_ASAP3_EVENT_CODE, POINTER(None), c_ulong]
     Asap3RegisterCallBack.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 991
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 984
 if _libs["CANapAPI64.dll"].has("Asap3UnRegisterCallBack", "stdcall"):
     Asap3UnRegisterCallBack = _libs["CANapAPI64.dll"].get("Asap3UnRegisterCallBack", "stdcall")
     Asap3UnRegisterCallBack.argtypes = [TAsap3Hdl, enum_ASAP3_EVENT_CODE]
     Asap3UnRegisterCallBack.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 996
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 989
 if _libs["CANapAPI64.dll"].has("Asap3ConnectToCANape", "stdcall"):
     Asap3ConnectToCANape = _libs["CANapAPI64.dll"].get("Asap3ConnectToCANape", "stdcall")
     Asap3ConnectToCANape.argtypes = [POINTER(TAsap3Hdl), String, String, String]
     Asap3ConnectToCANape.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 997
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 990
 if _libs["CANapAPI64.dll"].has("Asap3DisconnectFromCANape", "stdcall"):
     Asap3DisconnectFromCANape = _libs["CANapAPI64.dll"].get("Asap3DisconnectFromCANape", "stdcall")
     Asap3DisconnectFromCANape.argtypes = [TAsap3Hdl]
     Asap3DisconnectFromCANape.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 998
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 991
 if _libs["CANapAPI64.dll"].has("Asap3OpenDisplayForFile", "stdcall"):
     Asap3OpenDisplayForFile = _libs["CANapAPI64.dll"].get("Asap3OpenDisplayForFile", "stdcall")
     Asap3OpenDisplayForFile.argtypes = [TAsap3Hdl, String]
     Asap3OpenDisplayForFile.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 999
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 992
 if _libs["CANapAPI64.dll"].has("Asap3ReleaseResultList", "stdcall"):
     Asap3ReleaseResultList = _libs["CANapAPI64.dll"].get("Asap3ReleaseResultList", "stdcall")
     Asap3ReleaseResultList.argtypes = [TAsap3Hdl, c_int, POINTER(POINTER(c_char))]
     Asap3ReleaseResultList.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 1000
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 993
 if _libs["CANapAPI64.dll"].has("Asap3OpenDisplay", "stdcall"):
     Asap3OpenDisplay = _libs["CANapAPI64.dll"].get("Asap3OpenDisplay", "stdcall")
     Asap3OpenDisplay.argtypes = [TAsap3Hdl, String, c_int, c_int, c_int, POINTER(POINTER(c_char)), String, String, c_int, POINTER(POINTER(c_char)), POINTER(POINTER(c_char)), String, POINTER(c_int), POINTER(POINTER(POINTER(c_char))), POINTER(c_int), POINTER(POINTER(POINTER(c_char))), POINTER(c_int), POINTER(POINTER(POINTER(c_char))), POINTER(POINTER(POINTER(c_char)))]
     Asap3OpenDisplay.restype = c_bool
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 1018
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 1011
 for _lib in _libs.values():
     if not _lib.has("dummy", "cdecl"):
         continue
@@ -2886,1301 +2886,1301 @@ try:
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 6
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 6
 try:
     _MAX_PATH = 260
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 7
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 7
 try:
     MAX_PATH = 260
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 9
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 9
 try:
     AEC_CMD_NOT_SUP = 1
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 10
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 10
 try:
     AEC_INTERFACE_NOTSUPPORTED = 2
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 11
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 11
 try:
     AEC_CREATE_MEM_MAPPED_FILE = 3
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 12
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 12
 try:
     AEC_WRITE_CMD = 4
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 13
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 13
 try:
     AEC_READ_RESPONSE = 5
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 14
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 14
 try:
     AEC_ASAP2_FILE_NOT_FOUND = 6
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 15
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 15
 try:
     AEC_INVALID_MODULE_HDL = 7
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 16
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 16
 try:
     AEC_ERR_OPEN_FILE = 8
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 17
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 17
 try:
     AEC_UNKNOWN_OBJECT = 9
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 18
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 18
 try:
     AEC_NO_DATABASE = 10
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 19
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 19
 try:
     AEC_PAR_SIZE_OVERFLOW = 11
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 20
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 20
 try:
     AEC_NOT_WRITE_ACCESS = 12
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 21
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 21
 try:
     AEC_OBJECT_TYPE_DOESNT_MATCH = 13
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 22
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 22
 try:
     AEC_NO_TASKS_OVERFLOW = 14
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 23
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 23
 try:
     AEC_CCP_RESPONSE_SIZE_INVALID = 15
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 24
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 24
 try:
     AEC_TIMEOUT_RESPONSE = 16
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 25
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 25
 try:
     AEC_NO_VALUES_SAMPLED = 17
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 26
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 26
 try:
     AEC_ACQ_CHNL_OVERRUN = 18
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 27
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 27
 try:
     AEC_NO_RASTER_OVERFLOW = 19
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 28
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 28
 try:
     AEC_CANAPE_CREATE_PROC_FAILED = 20
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 29
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 29
 try:
     AEC_EXIT_DENIED_WHILE_ACQU = 21
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 30
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 30
 try:
     AEC_WRITE_DATA_FAILED = 22
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 31
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 31
 try:
     AEC_NO_RESPONSE_FROM_ECU = 23
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 32
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 32
 try:
     AEC_ACQUIS_ALREADY_RUNNING = 24
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 33
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 33
 try:
     AEC_ACQUIS_NOT_STARTED = 25
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 34
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 34
 try:
     AEC_NO_AXIS_PTS_NOT_VALID = 27
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 35
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 35
 try:
     AEC_SCRIPT_CMD_TO_LARGE = 28
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 36
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 36
 try:
     AEC_SCRIPT_CMD_INVALID = 29
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 37
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 37
 try:
     AEC_UNKNOWN_MODULE_NAME = 30
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 38
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 38
 try:
     AEC_FIFO_INTERNAL_ERROR = 31
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 39
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 39
 try:
     AEC_VERSION_ERROR = 32
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 40
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 40
 try:
     AEC_ILLEGAL_DRIVER = 33
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 41
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 41
 try:
     AEC_CALOBJ_READ_FAILED = 34
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 42
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 42
 try:
     AEC_ACQ_STP_INIT_FAILED = 35
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 43
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 43
 try:
     AEC_ACQ_STP_PROC_FAILED = 36
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 44
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 44
 try:
     AEC_ACQ_STP_OVERFLOW = 37
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 45
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 45
 try:
     AEC_ACQ_STP_TIME_OVER = 38
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 46
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 46
 try:
     AEC_NOSERVER_ERRCODE = 40
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 47
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 47
 try:
     AEC_ERR_OPEN_DATADESCFILE = 41
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 48
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 48
 try:
     AEC_ERR_OPEN_DATAVERSFILE = 42
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 49
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 49
 try:
     AEC_TO_MUCH_DISPLAYS_OPEN = 43
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 50
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 50
 try:
     AEC_INTERNAL_CANAPE_ERROR = 44
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 51
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 51
 try:
     AEC_CANT_OPEN_DISPLAY = 45
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 52
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 52
 try:
     AEC_ERR_NO_PATTERNFILE_DEFINED = 46
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 53
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 53
 try:
     AEC_ERR_OPEN_PATTERNFILE = 47
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 54
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 54
 try:
     AEC_ERR_CANT_RELEASE_MUTEX = 48
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 55
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 55
 try:
     AEC_WRONG_CANAPE_VERSION = 49
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 56
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 56
 try:
     AEC_TCP_SERV_CONNECT_FAILED = 50
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 57
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 57
 try:
     AEC_TCP_MISSING_CFG = 51
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 58
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 58
 try:
     AEC_TCP_SERV_NOT_CONNECTED = 52
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 59
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 59
 try:
     AEC_TCP_EXIT_NOTCLOSED = 53
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 60
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 60
 try:
     AEC_FIFO_ALREADY_INIT = 54
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 61
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 61
 try:
     AEC_ILLEGAL_OPERATION = 55
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 62
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 62
 try:
     AEC_WRONG_TYPE = 56
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 63
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 63
 try:
     AEC_NO_CANAPE_LICENSE = 57
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 64
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 64
 try:
     AEC_REG_OPEN_KEY_FAILED = 58
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 65
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 65
 try:
     AEC_REG_QUERY_VALUE_FAILED = 59
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 66
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 66
 try:
     AEC_WORKDIR_ACCESS_FAILED = 60
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 67
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 67
 try:
     AEC_INIT_COM_FAILED = 61
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 68
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 68
 try:
     AEC_INIT_CMD_FAILED = 62
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 69
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 69
 try:
     AEC_CANAPE_INVALID_PRG_PATH = 63
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 70
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 70
 try:
     AEC_INVALID_ASAP3_HDL = 64
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 71
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 71
 try:
     AEC_LOADING_FILE = 65
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 72
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 72
 try:
     AEC_SAVING_FILE = 66
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 73
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 73
 try:
     AEC_UPLOAD = 67
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 74
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 74
 try:
     AEC_WRITE_VALUE_ERROR = 68
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 75
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 75
 try:
     AEC_TMTF_NOT_FINSHED = 69
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 76
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 76
 try:
     AEC_TMTF_SEQUENCE_ERROR = 70
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 77
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 77
 try:
     AEC_TDBO_TYPE_ERROR = 71
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 78
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 78
 try:
     AEC_EXECUTE_SERVICE_ERROR = 72
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 79
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 79
 try:
     AEC_INVALID_DRIVERTYPE = 73
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 80
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 80
 try:
     AEC_DIAG_INVALID_DRIVERTYPE = 74
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 81
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 81
 try:
     AEC_DIAG_INVALID_BUSMESSAGE = 75
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 82
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 82
 try:
     AEC_DIAG_INVALID_VARIANT = 76
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 83
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 83
 try:
     AEC_DIAG_INVALID_DIAGSERVICE = 77
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 84
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 84
 try:
     AEC_DIAG_ERR_EXECUTE_SERVICE = 78
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 85
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 85
 try:
     AEC_DIAG_INVALID_PARAMS = 79
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 86
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 86
 try:
     AEC_DIAG_UNKNOWN_PARAM_NAME = 80
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 87
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 87
 try:
     AEC_DIAG_EXCEPTION_ERROR = 81
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 88
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 88
 try:
     AEC_DIAG_INVALID_RESPONSE = 82
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 89
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 89
 try:
     AEC_DIAG_UNKNOWN_PARAM_TYPE = 83
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 90
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 90
 try:
     AEC_DIAG_NO_INFO_AVAILABLE = 84
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 91
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 91
 try:
     AEC_DIAG_UNKNOWN_RESPHANDLE = 85
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 92
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 92
 try:
     ACE_DIAG_WRONG_SERVICE_STATE = 86
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 93
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 93
 try:
     AEC_DIAG_INVALID_INDEX_SIZE = 87
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 94
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 94
 try:
     AEC_DIAG_INVALID_RESPONSETYPE = 88
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 95
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 95
 try:
     AEC_FLASH_INVALID_MANAGER = 89
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 96
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 96
 try:
     AEC_FLASH_OBJ_OUT_OF_RANGE = 90
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 97
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 97
 try:
     AEC_FLASH_MANAGER_ERROR = 91
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 98
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 98
 try:
     AEC_FLASH_ALLREADY_RUNNING = 92
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 99
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 99
 try:
     AEC_FLASH_INVALID_APPNAME = 93
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 100
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 100
 try:
     AEC_FUNCTION_NOT_SUPPORTED = 94
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 101
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 101
 try:
     AEC_LICENSE_NOT_FOUND = 95
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 102
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 102
 try:
     AEC_RECORDER_ALLREADY_EXISTS = 96
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 103
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 103
 try:
     AEC_RECORDER_NOT_FOUND = 97
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 104
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 104
 try:
     AEC_RECORDER_INDEX_OUTOFRANGE = 98
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 105
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 105
 try:
     AEC_REMOVE_RECORDER_ERR = 99
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 106
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 106
 try:
     AEC_INVALID_PARAMETER = 100
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 107
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 107
 try:
     AEC_ERROR_CREATERECORDER = 101
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 108
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 108
 try:
     AEC_ERROR_SETRECFILENAME = 102
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 109
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 109
 try:
     AEC_ERROR_INVALID_TASKID = 103
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 110
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 110
 try:
     AEC_DIAG_PARAM_SETERROR = 104
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 111
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 111
 try:
     AEC_CNFG_WRONG_MODE = 105
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 112
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 112
 try:
     AEC_CNFG_FILE_NOT_FOUND = 106
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 113
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 113
 try:
     AEC_CNFG_FILE_INVALID = 107
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 114
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 114
 try:
     AEC_INVALID_SCR_HANDLE = 108
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 115
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 115
 try:
     AEC_REMOVE_SCR_HANDLE = 109
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 116
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 116
 try:
     AEC_ERROR_DECALRE_SCR = 110
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 117
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 117
 try:
     AEC_ERROR_RESUME_SUPPORTED = 111
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 118
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 118
 try:
     AEC_UNDEFINED_CHANNEL = 112
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 119
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 119
 try:
     AEC_ERR_DRIVER_CONFIG = 113
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 120
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 120
 try:
     AEC_ERR_DCB_EXPORT = 114
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 121
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 121
 try:
     ACE_NOT_AVAILABLE_WHILE_ACQ = 115
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 122
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 122
 try:
     ACE_NOT_MISSING_LICENSE = 116
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 123
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 123
 try:
     ACE_EVENT_ALLREADY_REGISERED = 117
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 124
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 124
 try:
     AEC_OBJECT_ALLREADY_DEFINED = 118
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 125
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 125
 try:
     AEC_CAL_NOT_ALLOWED = 119
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 126
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 126
 try:
     AEC_DIAG_UNDEFINED_JOB = 120
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 127
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 127
 try:
     AEC_ERROR_MODAL_DIALOG = 121
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 128
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 128
 try:
     AEC_ERROR_CHANNEL_ASSIGNMENT = 122
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 129
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 129
 try:
     AEC_ERROR_STRUCTURE_OBJECT = 123
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 130
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 130
 try:
     AEC_NETWORK_NOT_FOUND = 124
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 131
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 131
 try:
     AEC_ERROR_LOADING_LABELLIST = 125
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 132
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 132
 try:
     AEC_ERROR_CONV_FILE_ACCESS = 126
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 133
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 133
 try:
     AEC_ERROR_COMPLEX_RESPONSES = 127
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 134
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 134
 try:
     AEC_ERROR_INIPATH = 128
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 135
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 135
 try:
     AEC_USUPPORTED_INTERFACE_ID = 129
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 136
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 136
 try:
     AEC_INSUFFICENT_BUFFERSIZE = 130
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 137
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 137
 try:
     AEC_PATCHENTRY_NOT_FOUND = 131
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 138
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 138
 try:
     AEC_PATCHSECTION_NOT_FOUND = 132
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 139
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 139
 try:
     AEC_SEC_MANAGER_ERROR = 133
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 140
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 140
 try:
     ACE_CHANNEL_OPTIMIZED = 134
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 141
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 141
 try:
     ACE_ERR_PROFILE_ID = 135
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 142
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 142
 try:
     ACE_ERR_UNSUPPORTED_TYPE = 136
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 143
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 143
 try:
     AEC_LAST_ERRCODE = 137
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 527
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 527
 try:
     TDBE_VALUE_SCALAR = 1
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 528
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 528
 try:
     TDBE_VALUE_CURVE = 2
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 529
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 529
 try:
     TDBE_VALUE_MAP = 4
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 530
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 530
 try:
     TDBE_VALUE_AXIS = 8
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 531
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 531
 try:
     TDBE_VALUE_ASCII = 16
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 532
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 532
 try:
     TDBE_VALUE_VALBLK = 32
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 533
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 533
 try:
     TDBE_VALUE_ALL = (((((TDBE_VALUE_SCALAR | TDBE_VALUE_CURVE) | TDBE_VALUE_MAP) | TDBE_VALUE_AXIS) | TDBE_VALUE_ASCII) | TDBE_VALUE_VALBLK)
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 534
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 534
 try:
     ASAP3_INVALID_HDL = (TAsap3Hdl (ord_if_char(0))).value
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 535
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 535
 try:
     ASAP3_UNUSED_SECURITY = (c_uint (ord_if_char(0))).value
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 536
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 536
 try:
     ASAP3_NO_SECURITY_JOB = ''
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 548
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 541
 try:
     ASAP3_INVALID_MODULE_HDL = (-1)
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 607
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 600
 try:
     DLL_INTERFACE_VERSION = '02.03.01.Windows95/WindowsNT.1  '
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 608
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 601
 try:
     CANAPE_API_MAIN_VESION = 2
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 609
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 602
 try:
     CANAPE_API_SUB_VESION = 3
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 610
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 603
 try:
     CANAPE_API_RELEASE = 1
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 611
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 604
 try:
     CANAPE_API_OS_VERSION = 'Windows95/WindowsNT'
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 612
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 605
 try:
     CANAPE_API_OS_RELEASE = 1
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 614
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 607
 try:
     CUSTOMER_ID = 'Unknown'
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 617
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 610
 try:
     MAX_OS_VERSION = 50
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 632
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 625
 try:
     DEV_CAN1 = 1
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 633
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 626
 try:
     DEV_CAN2 = 2
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 634
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 627
 try:
     DEV_CAN3 = 3
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 635
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 628
 try:
     DEV_CAN4 = 4
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 636
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 629
 try:
     DEV_CAN5 = 5
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 637
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 630
 try:
     DEV_CAN6 = 6
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 638
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 631
 try:
     DEV_CAN7 = 7
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 639
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 632
 try:
     DEV_CAN8 = 8
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 640
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 633
 try:
     DEV_CAN20 = 20
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 641
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 634
 try:
     DEV_FLX1 = 31
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 642
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 635
 try:
     DEV_FLX2 = 32
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 643
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 636
 try:
     DEV_FLX3 = 33
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 644
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 637
 try:
     DEV_FLX4 = 34
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 645
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 638
 try:
     DEV_FLX5 = 35
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 646
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 639
 try:
     DEV_FLX6 = 36
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 647
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 640
 try:
     DEV_FLX7 = 37
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 648
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 641
 try:
     DEV_FLX8 = 38
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 649
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 642
 try:
     DEV_LIN1 = 61
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 650
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 643
 try:
     DEV_LIN2 = 62
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 651
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 644
 try:
     DEV_LIN3 = 63
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 652
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 645
 try:
     DEV_LIN4 = 64
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 653
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 646
 try:
     DEV_LIN5 = 65
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 654
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 647
 try:
     DEV_LIN6 = 66
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 655
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 648
 try:
     DEV_LIN7 = 67
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 656
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 649
 try:
     DEV_LIN8 = 68
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 657
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 650
 try:
     DEV_VX_CAN1 = 81
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 658
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 651
 try:
     DEV_VX_CAN2 = 82
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 659
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 652
 try:
     DEV_VX_CAN3 = 83
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 660
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 653
 try:
     DEV_VX_CAN4 = 84
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 661
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 654
 try:
     DEV_VX_TCP = 85
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 662
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 655
 try:
     DEV_VX_UDP = 86
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 663
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 656
 try:
     DEV_SXI1 = 91
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 664
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 657
 try:
     DEV_SXI2 = 92
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 665
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 658
 try:
     DEV_SXI3 = 93
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 666
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 659
 try:
     DEV_SXI4 = 94
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 667
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 660
 try:
     DEV_SXI5 = 95
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 668
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 661
 try:
     DEV_SXI6 = 96
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 669
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 662
 try:
     DEV_SXI7 = 97
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 670
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 663
 try:
     DEV_SXI8 = 98
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 671
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 664
 try:
     DEV_USB = 110
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 672
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 665
 try:
     DEV_CANFD1 = 121
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 673
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 666
 try:
     DEV_CANFD2 = 122
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 674
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 667
 try:
     DEV_CANFD3 = 123
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 675
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 668
 try:
     DEV_CANFD4 = 124
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 676
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 669
 try:
     DEV_CANFD5 = 125
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 677
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 670
 try:
     DEV_CANFD6 = 126
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 678
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 671
 try:
     DEV_CANFD7 = 127
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 679
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 672
 try:
     DEV_CANFD8 = 128
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 680
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 673
 try:
     DEV_CANFD9 = 129
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 681
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 674
 try:
     DEV_TCP = 255
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 682
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 675
 try:
     DEV_UDP = 256
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 683
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 676
 try:
     DEV_USERDEFINED = 261
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 684
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 677
 try:
     DEV_VX_ETHERNET1 = 271
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 685
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 678
 try:
     DEV_VX_ETHERNET2 = 272
 except:
     pass
 
-# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 686
+# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 679
 try:
     DEV_DAIO_DLL = 280
 except:
     pass
 
-TApplicationID = struct_TApplicationID# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 186
+TApplicationID = struct_TApplicationID# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 186
 
-DiagJobResponse = struct_DiagJobResponse# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 237
+DiagJobResponse = struct_DiagJobResponse# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 237
 
-PValues = union_PValues# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 246
+PValues = union_PValues# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 246
 
-DiagNumericParameter = struct_DiagNumericParameter# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 242
+DiagNumericParameter = struct_DiagNumericParameter# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 242
 
-DiagNotificationStruct = struct_DiagNotificationStruct# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 255
+DiagNotificationStruct = struct_DiagNotificationStruct# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 255
 
-TMeasurementListEntry = struct_TMeasurementListEntry# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 261
+TMeasurementListEntry = struct_TMeasurementListEntry# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 261
 
-MeasurementListEntries = struct_MeasurementListEntries# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 273
+MeasurementListEntries = struct_MeasurementListEntries# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 273
 
-DBObjectInfo = struct_DBObjectInfo# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 288
+DBObjectInfo = struct_DBObjectInfo# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 288
 
-DBFileInfo = struct_DBFileInfo# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 289
+DBFileInfo = struct_DBFileInfo# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 289
 
-TLayoutCoeffs = struct_TLayoutCoeffs# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 295
+TLayoutCoeffs = struct_TLayoutCoeffs# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 295
 
-SecProfileEntry = struct_SecProfileEntry# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 307
+SecProfileEntry = struct_SecProfileEntry# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 307
 
-TConverterInfo = struct_TConverterInfo# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 484
+TConverterInfo = struct_TConverterInfo# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 484
 
-tAsap3Hdl = struct_tAsap3Hdl# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 537
+tAsap3Hdl = struct_tAsap3Hdl# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 537
 
-tSampleObject = struct_tSampleObject# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 574
+tSampleObject = struct_tSampleObject# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 567
 
-tSampleBlockObject = struct_tSampleBlockObject# C:\\Users\\sim\\Desktop\\canapePY_COM\\ctypes_canapedll_002\\CANapAPI_stripped.h: 567
+tSampleBlockObject = struct_tSampleBlockObject# C:\\Users\\sim\\Desktop\\pyCANape\\ctypes_canapedll\\CANapAPI_stripped.h: 560
 
 # No inserted files
 
