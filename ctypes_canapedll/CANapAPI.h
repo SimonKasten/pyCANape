@@ -11,14 +11,9 @@
 #pragma once
 
 //disable deprecated warnings
-//#pragma warning(disable : 4996)
+#pragma warning(disable : 4996)
 
 #include <pshpack1.h>
-
-
-#define _MAX_PATH 260
-#define MAX_PATH 260
-#define WINAPI __stdcall
 
 /** @defgroup definition Definitions
  *  List of definitions used in CANapeAPI and CANapeTCP interface.
@@ -40,22 +35,22 @@ are the fraction 'F':
 */
 
 
-// #ifndef MATLABAPI
-// #ifndef _DOUBLE_NOTANUMBER_
-// #define _DOUBLE_NOTANUMBER_
-//   const union {
-//     unsigned char c[8];
-//     double d;
-//   } gDoubleNotANumber = { 0xFE, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF }; // S = 0, E = 2047, F = all bits set
+#ifndef MATLABAPI
+#ifndef _DOUBLE_NOTANUMBER_
+#define _DOUBLE_NOTANUMBER_
+  const union {
+    unsigned char c[8];
+    double d;
+  } gDoubleNotANumber = { 0xFE, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF }; // S = 0, E = 2047, F = all bits set
 
-//   const double DOUBLE_NOTANUMBER = gDoubleNotANumber.d;
+  const double DOUBLE_NOTANUMBER = gDoubleNotANumber.d;
 
-//   // must only be called with double variable, no expression!
-//   #define IS_DOUBLE_NOTANUMBER(_v_)  _isnan(_v_)
+  // must only be called with double variable, no expression!
+  #define IS_DOUBLE_NOTANUMBER(_v_)  _isnan(_v_)
 
-// #endif // _DOUBLE_NOTANUMBER_
-// /** @} end of definition */
-// #endif  // MATLABAPI
+#endif // _DOUBLE_NOTANUMBER_
+/** @} end of definition */
+#endif  // MATLABAPI
 
 /*
 // ! Special Module handle for the CANape Environment HEXEDIT Driver
@@ -296,8 +291,8 @@ enum ASAP3_EVENT_CODE
 
 struct TApplicationID
 {
-  enum TApplicationType tApplicationType;
-  char tApplicationPath[_MAX_PATH];
+ TApplicationType tApplicationType;
+ char             tApplicationPath[_MAX_PATH];
 };
 
 /** @defgroup enumeration Enumerations
@@ -391,7 +386,7 @@ struct DiagJobResponse
 //! structure NumericParameter used in the functions \n \link Asap3DiagSetNumericParameter \endlink \n \link Asap3DiagGetNumericResponseParameter \endlink and \n \link Asap3DiagGetComplexNumericResponseParameter \endlink \n
 struct DiagNumericParameter
 {
- enum EnParamType DiagNumeric; //!< Identification of the PValue data type
+ EnParamType DiagNumeric; //!< Identification of the PValue data type
 
  //!> union to transport numeric diagnostic parameters
  union PValues
@@ -401,14 +396,14 @@ struct DiagNumericParameter
   float         FVal;  //!< corresponding union parameter for type ParamFloat
   double        DVal;  //!< corresponding union parameter for type ParamDouble
  };
- union PValues Values;
+ PValues Values;
 };
 
 //! structure which is a parameter  of the callback function FNCDIAGNOTIFICATION
 struct DiagNotificationStruct
 {
  TAsap3DiagHdl  DiagHandle;    //!< Handle of the corresponding request
- enum eServiceStates DiagState;     //!< current state of the request
+ eServiceStates DiagState;     //!< current state of the request
  void          *PrivateData;   //!< user defined private data
 };
 
@@ -419,8 +414,8 @@ struct TMeasurementListEntry// SSR-APPEND:_stream
 {
  unsigned short  taskId;    //!< assigned Task id of the measurement object
  unsigned long   rate;      //!< assigned rate of the measurement object in ms
- int            SaveFlag;  //!< TRUE is the measurement object will be saved in the MDF file, otherwise FALSE
- int            Disabled;  //!< TRUE is the measurement object is enabled for measurement, otherwise FALSE
+ BOOL            SaveFlag;  //!< TRUE is the measurement object will be saved in the MDF file, otherwise FALSE
+ BOOL            Disabled;  //!< TRUE is the measurement object is enabled for measurement, otherwise FALSE
  #if 1// SSR-REPLACE: #if 0
  char           *ObjectName;//!< Label name of the measurement object
  #else
@@ -434,29 +429,29 @@ struct TMeasurementListEntry// SSR-APPEND:_stream
 struct MeasurementListEntries
 {
  unsigned int ItemCount;            //!< count of \link MeasurementListEntry \endlink items
- struct TMeasurementListEntry **Entries;   //!< \link MeasurementListEntry \endlink array
+ TMeasurementListEntry **Entries;   //!< \link MeasurementListEntry \endlink array
 };
 
 //! structure DBObjectInfo used in the functions \n \link Asap3GetDBObjectInfo \endlink \n
 
 typedef struct DBObjectInfo
 {
-  enum TObjectType  DBObjecttype; //!< Type of the Object
-  enum TValueType type;           //!< ValueType of the Object // scalar etc.
+  TObjectType  DBObjecttype; //!< Type of the Object
+  TValueType type;           //!< ValueType of the Object // scalar etc.
   double     min;            //!< Min Limit
   double     max;            //!< Max Limit
   double     minEx;          //!< ext. Min Limit
   double     maxEx;          //!< ext. Max Limit
-  unsigned char       precision;      //!< count of digits (decimal place)
+  BYTE       precision;      //!< count of digits (decimal place)
   char       unit[MAX_PATH]; //!< Object Unit
-} DBObjectInfo;
+}DBObjectInfo;
 
 //! structure DBFileInfo used in the functions \n \link Asap3GetDatabaseInfo \endlink \n
 struct  DBFileInfo  //! DBFileInfo structure
 {
   char asap2Fname[MAX_PATH]; //!< name of the Database file
   char asap2Path[MAX_PATH];  //!< path of the Database file
-  unsigned char type;                /*!< type of the Database file: \n  
+  BYTE type;                /*!< type of the Database file: \n  
                             UNKNOWN = 0, ASAP2 = 1, DB = 2, DBB = 3, DBC = 4,
                             CANDELA = 5, ODF = 6, EDS = 7, EHR = 8, ROB = 9,
                             LST = 10, LDF = 11, CDM = 12, MDF = 13, XML = 14,
@@ -488,13 +483,13 @@ struct TLayoutCoeffs
 *     Address( NumberOfYAxisCoordinates ) = Object_Baseaddress + OffNy
 *
 *     Address( XAxisCoordinate(ix) ) = Object_Baseaddress + OffX + (ix * FakX)
-*             where   ix = ï¿½{0...n-1}
+*             where   ix = ´{0...n-1}
 *
 *     Address( YAxisCoordinate(iy) ) = Object_Baseaddress + OffY + (iy * FakY)
-*             where   iy = ï¿½{0...m-1}
+*             where   iy = ´{0...m-1}
 *
 *     Address( ResultValue(ix, iy) ) = Object_Baseaddress + OffW + (ix * FakWx) + (iy * FakWy)
-*             where   ix = ï¿½{0...n-1} and  iy = ï¿½{0...m-1}
+*             where   ix = ´{0...n-1} and  iy = ´{0...m-1}
 */
 
 
@@ -557,16 +552,16 @@ typedef long (CALLBACK* FNCDIAGNOFIFICATION)(unsigned long sizeofstruct, DiagNot
  // SSR-BEGIN
 typedef union { // TCalibrationObjectValueEx
 
-  enum TValueType type;
+  TValueType type;
 
   struct {
-    enum TValueType type;
+    TValueType type;
 
     double value; //!< ECU-internal value or physical value
   } value;        //!< Single value (Kennwert)
 
   struct {
-    enum TValueType type; //!< Shared axis
+    TValueType type; //!< Shared axis
 
     short dimension;        //!< Number of elements
     #if 1// SSR-REPLACE:    #if 0
@@ -578,7 +573,7 @@ typedef union { // TCalibrationObjectValueEx
   } axis;      //!< Array of axis coordinates
 
   struct {        // completely identical to struct axis, union should be compatible
-    enum TValueType type;        //!< ASCII string,
+    TValueType type;        //!< ASCII string,
 
     short len;              //!< Number of characters
     #if 1// SSR-REPLACE:    #if 0
@@ -590,7 +585,7 @@ typedef union { // TCalibrationObjectValueEx
   } ascii;      //!< Array of characters
 
   struct {
-    enum TValueType type;
+    TValueType type;
 
     short dimension;        //!< Number of elements
     #if 1// SSR-REPLACE:    #if 0
@@ -608,7 +603,7 @@ typedef union { // TCalibrationObjectValueEx
   } curve;     //!< Array of value pairs comprising an axis coordinate and a corresponding output value.
 
   struct {
-    enum TValueType type;
+    TValueType type;
 
     short xDimension;      //!< Number of elements = xDimension + yDimension
     short yDimension;      //!< Number of elements = xDimension + yDimension
@@ -630,7 +625,7 @@ typedef union { // TCalibrationObjectValueEx
   } map;       //!< 2 arrays of X- and Y-axis-coordinates respectively and a 2-dimensional matrix of output values
 
   struct {
-    enum TValueType type;
+    TValueType type;
 
     short xDimension;      //!< Number of elements = xDimension + yDimension
     short yDimension;      //!< Number of elements = xDimension + yDimension
@@ -642,8 +637,9 @@ typedef union { // TCalibrationObjectValueEx
     unsigned long oValues;
 #endif
   } valblk;
-} TCalibrationObjectValueEx; // SSR-APPEND:_stream
-
+}
+TCalibrationObjectValueEx// SSR-APPEND:_stream
+;
 // SSR-END
 
 // SSR-BEGIN
@@ -664,23 +660,24 @@ typedef struct // TCalibrationObjectValueEx2
   unsigned long   yStart;      //!< Reserved
   unsigned long   xSize;       //!< Reserved
   unsigned long   ySize;       //!< Reserved
-} TCalibrationObjectValueEx2;// SSR-APPEND:_stream
-
+}
+TCalibrationObjectValueEx2// SSR-APPEND:_stream
+;
 // SSR-END
 
 // SSR-BEGIN
 typedef union { // TCalibrationObjectValue
 
-  enum TValueType type;
+  TValueType type;
 
   struct {
-    enum TValueType type;
+    TValueType type;
 
     double value; //!< ECU-internal value or physical value
   } value;        //!< Single value
 
   struct {
-    enum TValueType type; //!< Shared axis
+    TValueType type; //!< Shared axis
 
     short dimension;       //!< Number of elements
     #if 1// SSR-REPLACE:    #if 0
@@ -691,7 +688,7 @@ typedef union { // TCalibrationObjectValue
   } axis;      //!< Array of axis coordinates
 
   struct {        // completely identical to struct axis, union should be compatible
-    enum TValueType type;        //!< ASCII string,
+    TValueType type;        //!< ASCII string,
 
     short len;              //!< Number of characters
     #if 1// SSR-REPLACE:    #if 0
@@ -702,7 +699,7 @@ typedef union { // TCalibrationObjectValue
   } ascii;      //!< Array of characters
 
   struct {
-    enum TValueType type;
+    TValueType type;
 
     short dimension;        //!< Number of elements
     #if 1// SSR-REPLACE:    #if 0
@@ -715,7 +712,7 @@ typedef union { // TCalibrationObjectValue
   } curve;     //!< Array of value pairs comprising an axis coordinate and a corresponding output value.
 
   struct {
-    enum TValueType type;
+    TValueType type;
 
     short xDimension;      //!< Number of elements = xDimension + yDimension
     short yDimension;      //!< Number of elements = xDimension + yDimension
@@ -731,7 +728,7 @@ typedef union { // TCalibrationObjectValue
   } map;       //!< 2 arrays of X- and Y-axis-coordinates respectively and a 2-dimensional matrix of output values
 
   struct {
-    enum TValueType type;
+    TValueType type;
 
     short xDimension;      //!< Number of elements = xDimension + yDimension
     short yDimension;      //!< Number of elements = xDimension + yDimension
@@ -742,7 +739,8 @@ typedef union { // TCalibrationObjectValue
 #endif
   } valblk;
 }
-TCalibrationObjectValue;// SSR-APPEND:_stream
+TCalibrationObjectValue// SSR-APPEND:_stream
+;
 // SSR-END
 
 
@@ -752,16 +750,17 @@ TCalibrationObjectValue;// SSR-APPEND:_stream
  */
 // SSR-BEGIN
 typedef struct { // TTaskInfo
-#if 1// SSR-REPLACE:  #if 0
+  #if 1// SSR-REPLACE:  #if 0
   const char     *description;  //!< Description text
-#else
+  #else
   TReservedOffset_stream description;
-#endif
+  #endif
   unsigned short  taskId;       //!< Identification number. The task Id is dynamically generated by CANape depending on internal definitions.
   unsigned long   taskCycle;    /*!< Cycle rate in msec 0 if not a cyclic task or unknown.
                                       In case of modes polling or cycle this parameter has no sense.*/
 }
-TTaskInfo; // SSR-APPEND:_stream
+TTaskInfo// SSR-APPEND:_stream
+;
 // SSR-END
 
 
@@ -791,7 +790,8 @@ typedef struct {
                                       In case of modes polling or cycle this parameter has no sense.*/
   unsigned long   eventChannel;
 }
-TTaskInfo2; // SSR-APPEND:_stream
+TTaskInfo2// SSR-APPEND:_stream
+;
 // SSR-END
 
 /** @} end of structs */
@@ -801,7 +801,7 @@ TTaskInfo2; // SSR-APPEND:_stream
  */
 
  //! possible states for diagnostic services
-typedef enum {
+typedef enum  {
   TYPE_FILE,         //!< Destination File (Hex file)
   TYPE_VIRTUAL,      //!< Destination Memory
   TYPE_PHYSICAL      //!< Destination Memory ECU
@@ -809,9 +809,10 @@ typedef enum {
 
 //! possible On-Offline states of the ECU
 typedef enum {
+
   TYPE_SWITCH_ONLINE,  //!< Switches the ECU state from offline to online
   TYPE_SWITCH_OFFLINE, //!< Switches the ECU state from online to offline
-} TAsap3ECUState;
+}TAsap3ECUState;
 
 //! possible data types of characteristic objects
 typedef enum {
@@ -822,14 +823,14 @@ typedef enum {
   TYPE_SIGNED,  //!< Characteristic Object is type of signed
   TYPE_UNSIGNED,//!< Characteristic Object is type of unsigned
   TYPE_STRING   //!< Characteristic Object is type of ASCII string
-} TAsap3DataType;
+}TAsap3DataType;
 
 //! possible database object types
 typedef enum {
  DBTYPE_MEASUREMENT=1,  //!< Selects measurement objects from the database
  DBTYPE_CHARACTERISTIC, //!< Selects characteristic objects from the database
  DBTYPE_ALL             //!< Selects both, measurement and characteristic objects from the database
-} TAsap3DBOType;
+}TAsap3DBOType;
 
 /** @} end of enumeration */
 
@@ -859,7 +860,8 @@ typedef enum {
 
 
 struct tAsap3Hdl;
-typedef tAsap3Hdl *TAsap3Hdl;
+typedef struct tAsap3Hdl *TAsap3Hdl;
+
 typedef unsigned long *TRecorderID;
 
 
@@ -893,25 +895,26 @@ typedef struct {
 typedef struct
 {
  unsigned long countOfEntires;  //!< Specifies the size of the sample (count of measurement entries)
- unsigned long timestamp;              //!< Timestamp of the sample (0.1 ms resolution)
+ ::TTime  timestamp;              //!< Timestamp of the sample (0.1 ms resolution)
  #if 1// SSR-REPLACE: #if 0
  double *data;                  //!< double array of the sample
  #else
  TReservedOffset_stream data;
  #endif
-} tSampleObject; // SSR-APPEND:_stream
-
+}
+tSampleObject// SSR-APPEND:_stream
+;
 // SSR-END
 
 //! Represents a structure that returns a block of samples the the client. (see also \link Asap3GetNextSampleBlock \endlink)
 struct tSampleBlockObject
 {
- int has_buffer_Overrun;      //!< Signals a Buffer overrun
+ BOOL has_buffer_Overrun;      //!< Signals a Buffer overrun
  long has_Error;               //!< Signals an error while measurement is running
- int initialized;             //!< must be true
+ BOOL initialized;             //!< must be true
  long countofValidEntries;     //!< count of available and valid samples
  long countofInitilizedEntries;//!< count of available and valid and invalid (older)samples
- struct tSampleObject **tSample;      //!< Array of samples (see structure  \link tSampleObject \endlink)
+ tSampleObject **tSample;      //!< Array of samples (see structure  \link tSampleObject \endlink)
 };
 
 /** @} end of structs */
@@ -942,7 +945,7 @@ typedef enum {
   ASAP3_DRIVER_SOME_IP     = 170,      //!< SOME-IP driver
   ASAP3_DRIVER_DLT         = 180       //!< DLT driver
 } tDriverType;
-/** @} end of Drivers */
+/** @} end of ´Drivers */
 
 //! Version control of CANapAPI.DLL
 #ifndef VERSION_T
@@ -1097,30 +1100,44 @@ typedef struct {
 
 
 
+//!\n
 //!Definitions for TCP\n
+//!\n
 #define   DEV_TCP         255
+//!\n
 //!Definitions for UDP\n
+//!\n
 #define   DEV_UDP         256
+//!\n
 //!Definitions for user defined Interface\n
+//!\n
 #define   DEV_USERDEFINED 261
+
+//!\n
 //!Definitions for user Ethernet Interface\n
+//!\n
 #define   DEV_VX_ETHERNET1 271
 #define   DEV_VX_ETHERNET2 272
+
+//!\n
 //!Definitions for user DAIO Interface\n
+//!\n
 #define   DEV_DAIO_DLL     280
 
 /** @} end of Channels */
 
+
+
 #define ASAP3_EXPORT __declspec(dllexport)
 #define CALL_CONV WINAPI
 
-
-
+#ifndef MATLABAPI
+extern "C" {
 
 
 #ifndef _CANAPE_API_TCP_
 // Hidden for API Documentation
-bool ASAP3_EXPORT CALL_CONV Asap3IsUsCANapeVersion(int *USVersion);
+bool ASAP3_EXPORT CALL_CONV Asap3IsUsCANapeVersion(BOOL *USVersion);
 #endif
 
 
@@ -1148,6 +1165,7 @@ bool ASAP3_EXPORT CALL_CONV Asap3IsUsCANapeVersion(int *USVersion);
  *      (version.dllSubVersion  == CANAPE_API_SUB_VESION) and<br>
  *      (version.dllRelease     >=  CANAPE_API_RELEASE)
  */
+
 extern bool ASAP3_EXPORT CALL_CONV Asap3GetVersion(version_t * version);
 
 //! Configure ASAP3 TCP connection
@@ -1164,8 +1182,9 @@ extern bool ASAP3_EXPORT CALL_CONV Asap3SetTCPOptions(const char* ipAddress, uns
 //! Initialize ASAP3 connection
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-/*! Writes a handle to hdl be used in subsequent function calls. 
- * CANape will be started (if not actually running)
+/*! Returns a handle to be used in
+ * subsequent function calls. CANape will be started (if not actually
+ * running).<br>
  *
  *  \param hdl \output Asap3Handle for further access to this interface.
  *  \param responseTimeout \input Maximum response time
@@ -1308,6 +1327,7 @@ extern bool ASAP3_EXPORT CALL_CONV Asap3Init5(TAsap3Hdl * hdl,
  *  \param bModalMode \input If it is true the CANape will be started in NON MODAL mode.
  *  \param eAppType \input this parameter describes the Application (eCANAPE) which the client wants to start
  */
+
 extern bool ASAP3_EXPORT CALL_CONV Asap3Init6(TAsap3Hdl *hdl,
                                        unsigned long responseTimeout,
                                        const char *projectFile,
@@ -1328,6 +1348,7 @@ extern bool ASAP3_EXPORT CALL_CONV Asap3Init6(TAsap3Hdl *hdl,
 */
 extern bool ASAP3_EXPORT CALL_CONV Asap3GetProjectDirectory(TAsap3Hdl hdl, char* directory, unsigned long *size);
 
+
 //! Shut down ASAP3 connection to CANape (terminates CANape)
 /*! \param hdl \input Asap3 Handle
 */
@@ -1339,6 +1360,7 @@ extern bool ASAP3_EXPORT CALL_CONV Asap3Exit(TAsap3Hdl hdl);
  *   \return error number.
  */
 extern unsigned short ASAP3_EXPORT CALL_CONV Asap3GetLastError(TAsap3Hdl hdl);
+
 
 //! Call this function to change the application name which is used to select the logical CAN channel name. E.g. namexxCAN2
 /*!  \param hdl \input Asap3 Handle
@@ -1353,17 +1375,23 @@ extern bool ASAP3_EXPORT CALL_CONV Asap3SetApplicationName(TAsap3Hdl hdl, const 
 */
 extern bool ASAP3_EXPORT CALL_CONV Asap3GetApplicationName(TAsap3Hdl hdl,char *Name,unsigned long *Size);
 
+
+
 //! Call this function to get the current version of the server application (CANape).
 /*!  \param hdl \input Asap3 Handle
  *  \param version \output version info
 */
+
 extern bool ASAP3_EXPORT CALL_CONV Asap3GetApplicationVersion(TAsap3Hdl hdl,Appversion * version);
+
 
 //! Shut down ASAP3 connection to CANape with optional termination of CANape. true
 /*! \param hdl \input Asap3 Handle
  *  \param close_CANape \input true -> CANape will be shutdown otherwise CANape will not be shutdown
 */
 extern bool ASAP3_EXPORT CALL_CONV Asap3Exit2(TAsap3Hdl hdl,bool close_CANape);
+
+
 
 //! Call this function to get an error text corresponding to the result of Asap3GetLastError().
 /*! \param hdl \input Asap3 Handle
@@ -1500,6 +1528,7 @@ extern bool ASAP3_EXPORT CALL_CONV Asap3RestartMeasurementOnError(TAsap3Hdl hdl,
  */
 extern bool ASAP3_EXPORT CALL_CONV Asap3IsRestartMeasurementOnErrorEnabled(TAsap3Hdl hdl,TModulHdl module,bool *restart);
 
+
 //! Returns the activation state of specific module
 /*! \param hdl \input Asap3 Handle
 *  \param module \output Points to demanded module
@@ -1514,11 +1543,13 @@ extern bool ASAP3_EXPORT CALL_CONV Asap3IsModuleActive(TAsap3Hdl hdl,TModulHdl m
  */
 extern bool ASAP3_EXPORT CALL_CONV Asap3ModuleActivation(TAsap3Hdl hdl,TModulHdl module,bool activate);
 
+
 //! Switches the modules cal page between RAM and ROM
 /*! \param hdl \input Asap3 Handle
 *  \param module \input Points to demanded module
 *  \param activate \output  RamMode  e_TR_MODE_RAM=      0,e_TR_MODE_ROM=      1:
 */
+
 extern bool ASAP3_EXPORT CALL_CONV Asap3SwitchToMemoryPage(TAsap3Hdl hdl,TModulHdl module,e_RamMode mode);
 
 //! Returns the active cal page
@@ -1526,7 +1557,9 @@ extern bool ASAP3_EXPORT CALL_CONV Asap3SwitchToMemoryPage(TAsap3Hdl hdl,TModulH
 *  \param module \input Points to demanded module
 *  \param activate \output  RamMode  e_TR_MODE_RAM=      0,e_TR_MODE_ROM=      1:
 */
+
 extern bool ASAP3_EXPORT CALL_CONV Asap3GetMemoryPage(TAsap3Hdl hdl,TModulHdl module,e_RamMode *mode);
+
 
 //! Get the Unit of a DB Object
 /*! \param hdl \input Asap3 Handle
@@ -1535,16 +1568,16 @@ extern bool ASAP3_EXPORT CALL_CONV Asap3GetMemoryPage(TAsap3Hdl hdl,TModulHdl mo
  *  \param UnitName     \output   character array to retrieve the unit name
  *  \param Size      \input   size of the character array
  */
-extern bool ASAP3_EXPORT CALL_CONV Asap3GetDBObjectUnit(TAsap3Hdl hdl,TModulHdl module,char *DatabaseObjectName,char *UnitName,UINT *Size);
 
+extern bool ASAP3_EXPORT CALL_CONV Asap3GetDBObjectUnit(TAsap3Hdl hdl,TModulHdl module,char *DatabaseObjectName,char *UnitName,UINT *Size);
 //! Get information of a database object
 /*! \param hdl \input Asap3 Handle
  *  \param module \input Points to demanded module
  *  \param DatabaseObjectName \input  name of the requested DBObject
  *  \param Info     \output   DBObjectInfo Information structure
  */
-extern bool ASAP3_EXPORT CALL_CONV Asap3GetDBObjectInfo(TAsap3Hdl hdl,TModulHdl module,char *ObjectName,DBObjectInfo *Info);
 
+extern bool ASAP3_EXPORT CALL_CONV Asap3GetDBObjectInfo(TAsap3Hdl hdl,TModulHdl module,char *ObjectName,DBObjectInfo *Info);
 //! Get objects of the attached ASAP2 file
 /*! \param hdl \input Asap3 Handle
  *  \param module \output Points to demanded module
@@ -1552,6 +1585,7 @@ extern bool ASAP3_EXPORT CALL_CONV Asap3GetDBObjectInfo(TAsap3Hdl hdl,TModulHdl 
  *  \param MaxSize     \input   Size of data objects array
  *  \param DbType      \input   type of the DB Object
  */
+
 extern bool ASAP3_EXPORT CALL_CONV Asap3GetDatabaseObjects(TAsap3Hdl hdl,TModulHdl module,char *DataObjects,UINT *MaxSize,TAsap3DBOType DbType);
 
 //! Get objects of the attached ASAP2 file
@@ -1769,7 +1803,7 @@ extern bool ASAP3_EXPORT CALL_CONV Asap3CalibrationObjectInfo(TAsap3Hdl hdl, TMo
  */
 extern bool ASAP3_EXPORT CALL_CONV Asap3CalibrationObjectInfoEx(TAsap3Hdl hdl, TModulHdl module,
                    const char *calibrationObjectName,
-                   short *xDimension, short *yDimension,enum TValueType *type);
+                   short *xDimension, short *yDimension,TValueType *type);
 
 
 //! Asap3CalibrationObjectRecordInfo
@@ -2045,7 +2079,7 @@ extern bool ASAP3_EXPORT CALL_CONV Asap3RemoveRecorder(TAsap3Hdl hdl,TRecorderID
  *  \param enable \ enables or disables the logging
  */
                                                  
-extern bool ASAP3_EXPORT CALL_CONV Asap3EnableBusLoggingRecorderByModule(TAsap3Hdl hdl,  TRecorderID recorderID, TModulHdl module, int enable);
+extern bool ASAP3_EXPORT CALL_CONV Asap3EnableBusLoggingRecorderByModule(TAsap3Hdl hdl,  TRecorderID recorderID, TModulHdl module, BOOL enable);
 
 //! Enables the Recorder Buslogging 
 /*  The Network will be selected a giver module*/
@@ -2055,7 +2089,7 @@ extern bool ASAP3_EXPORT CALL_CONV Asap3EnableBusLoggingRecorderByModule(TAsap3H
  *  \param enable \ enables or disables the logging
  */
 
-extern bool ASAP3_EXPORT CALL_CONV Asap3EnableBusLoggingRecorderByNetWork(TAsap3Hdl hdl, TRecorderID recorderID, char* NetworkName, int enable);
+extern bool ASAP3_EXPORT CALL_CONV Asap3EnableBusLoggingRecorderByNetWork(TAsap3Hdl hdl, TRecorderID recorderID, char* NetworkName, BOOL enable);
 //! Returns the Recorder configuration concerning  Buslogging 
 /*  The Network will be selected a giver module*/
 /*! \param hdl \input Asap3 Handle
@@ -2064,7 +2098,7 @@ extern bool ASAP3_EXPORT CALL_CONV Asap3EnableBusLoggingRecorderByNetWork(TAsap3
  *  \param enable \ return true if logging is enabled
  */
 
-extern bool ASAP3_EXPORT CALL_CONV Asap3IsRecorderBusLoggingEnableByNetWork(TAsap3Hdl hdl, TRecorderID recorderID, char* NetworkName, int *enable);
+extern bool ASAP3_EXPORT CALL_CONV Asap3IsRecorderBusLoggingEnableByNetWork(TAsap3Hdl hdl, TRecorderID recorderID, char* NetworkName, BOOL *enable);
 
 //! Returns the Recorder configuration concerning  Buslogging 
 /*  The Network will be selected a giver module*/
@@ -2074,7 +2108,7 @@ extern bool ASAP3_EXPORT CALL_CONV Asap3IsRecorderBusLoggingEnableByNetWork(TAsa
  *  \param enable \ return true if logging is enabled
  */
 
-extern bool ASAP3_EXPORT CALL_CONV Asap3IsRecorderBusLoggingEnableByModule(TAsap3Hdl hdl, TRecorderID recorderID, TModulHdl module, int *enable);
+extern bool ASAP3_EXPORT CALL_CONV Asap3IsRecorderBusLoggingEnableByModule(TAsap3Hdl hdl, TRecorderID recorderID, TModulHdl module, BOOL *enable);
 
 //! Retrieves the MDF Filename of a Recorder (see Asap3GetMdfFilename)
 /*! \param hdl \input Asap3 Handle
@@ -2709,7 +2743,7 @@ extern bool ASAP3_EXPORT CALL_CONV  Asap3DiagExecuteJob(TAsap3Hdl hdl, TModulHdl
  *  \param hDiag \output Handle of the Service
  *
 */
-extern bool ASAP3_EXPORT CALL_CONV Asap3DiagCreateRawRequest(TAsap3Hdl hdl, TModulHdl module,unsigned char *ServiceBytes,unsigned int length,TAsap3DiagHdl *hDiag);
+extern bool ASAP3_EXPORT CALL_CONV Asap3DiagCreateRawRequest(TAsap3Hdl hdl, TModulHdl module,BYTE *ServiceBytes,unsigned int length,TAsap3DiagHdl *hDiag);
 
 
 
@@ -2721,7 +2755,7 @@ extern bool ASAP3_EXPORT CALL_CONV Asap3DiagCreateRawRequest(TAsap3Hdl hdl, TMod
  *  \param hDiag \output Handle of the Service
  *
 */
-extern bool ASAP3_EXPORT CALL_CONV Asap3DiagCreateRawRequest2(TAsap3Hdl hdl, TModulHdl module,unsigned char *Bytes,unsigned int length,TAsap3DiagHdl *hDiag);
+extern bool ASAP3_EXPORT CALL_CONV Asap3DiagCreateRawRequest2(TAsap3Hdl hdl, TModulHdl module,BYTE *Bytes,unsigned int length,TAsap3DiagHdl *hDiag);
 
 //! Creates a Symbolic Diagnostic request
 /*! \param hdl \input Asap3 Handle
@@ -2748,7 +2782,7 @@ extern bool ASAP3_EXPORT CALL_CONV Asap3DiagSetNotificationParameters(TAsap3Hdl 
  *  \param SupressPositiveResponse \input a positive response will not be sent by the ECU
 */
 
-extern bool ASAP3_EXPORT CALL_CONV Asap3DiagExecute(TAsap3Hdl hdl,TAsap3DiagHdl hDiag,int SupressPositiveResponse);
+extern bool ASAP3_EXPORT CALL_CONV Asap3DiagExecute(TAsap3Hdl hdl,TAsap3DiagHdl hDiag,BOOL SupressPositiveResponse);
 
 
 //! Queries the state of a Request
@@ -2782,7 +2816,7 @@ extern bool ASAP3_EXPORT CALL_CONV Asap3DiagSetStringParameter(TAsap3Hdl hdl,TAs
  *  \param Size \input Size of the parameter Value in bytes
 */
 
-extern bool ASAP3_EXPORT CALL_CONV Asap3DiagSetRawParameter(TAsap3Hdl hdl,TAsap3DiagHdl hDiag,char* ParameterName,unsigned char* ParameterValue,DWORD Size);
+extern bool ASAP3_EXPORT CALL_CONV Asap3DiagSetRawParameter(TAsap3Hdl hdl,TAsap3DiagHdl hDiag,char* ParameterName,BYTE* ParameterValue,DWORD Size);
 
 //! Set a UNSIGNED Parameter Value
 /*! \param hdl \input Asap3 handle
@@ -2810,7 +2844,7 @@ extern bool ASAP3_EXPORT CALL_CONV Asap3DiagGetResponseCount(TAsap3Hdl hdl,TAsap
  *  \param IsPositive\output true, if there was a positive response
 
 */
-extern bool ASAP3_EXPORT CALL_CONV Asap3DiagIsPositiveResponse(TAsap3Hdl hdl,TAsap3DiagHdl hDiag,long ResponseID,int *IsPositive);
+extern bool ASAP3_EXPORT CALL_CONV Asap3DiagIsPositiveResponse(TAsap3Hdl hdl,TAsap3DiagHdl hDiag,long ResponseID,BOOL *IsPositive);
 
 
 
@@ -2821,7 +2855,7 @@ extern bool ASAP3_EXPORT CALL_CONV Asap3DiagIsPositiveResponse(TAsap3Hdl hdl,TAs
  *  \param Size \output size of the byte stream
  *  \param ResponseID \input Index number of the response
 */
-extern bool ASAP3_EXPORT CALL_CONV Asap3DiagGetResponseStream(TAsap3Hdl hdl,TAsap3DiagHdl hDiag,unsigned char* Stream,DWORD *Size,long ResponseID);
+extern bool ASAP3_EXPORT CALL_CONV Asap3DiagGetResponseStream(TAsap3Hdl hdl,TAsap3DiagHdl hDiag,BYTE* Stream,DWORD *Size,long ResponseID);
 
 //! Returns a symbolic response parameter
 /*! \param hdl \input Asap3 handle
@@ -2860,7 +2894,7 @@ extern bool ASAP3_EXPORT CALL_CONV Asap3DiagGetNumericResponseParameter(TAsap3Hd
  *  \param ResponseID \input index number of the response
  *  \param IsComplex \output for a complex parameter IsComplex is true
 */
-extern bool ASAP3_EXPORT CALL_CONV Asap3DiagIsComplexResponseParameter(TAsap3Hdl hdl,TAsap3DiagHdl hDiag,char *name,long ResponseID,int *IsComplex);
+extern bool ASAP3_EXPORT CALL_CONV Asap3DiagIsComplexResponseParameter(TAsap3Hdl hdl,TAsap3DiagHdl hDiag,char *name,long ResponseID,BOOL *IsComplex);
 
 //! Returns the raw response byte stream
 /*! \param hdl \input Asap3 handle
@@ -2906,7 +2940,7 @@ extern bool ASAP3_EXPORT CALL_CONV Asap3DiagGetComplexRawResponseParameter(TAsap
  *  \param ResponseID \input index number of the response
  *  \param *Code \output response code
 */
-extern bool ASAP3_EXPORT CALL_CONV Asap3DiagGetResponseCode(TAsap3Hdl hdl,TAsap3DiagHdl hDiag,long ResponseID,unsigned char *Code);
+extern bool ASAP3_EXPORT CALL_CONV Asap3DiagGetResponseCode(TAsap3Hdl hdl,TAsap3DiagHdl hDiag,long ResponseID,BYTE *Code);
 
 
 //! Returns the count of iterations concerning a given parameter
@@ -3076,7 +3110,7 @@ extern bool ASAP3_EXPORT CALL_CONV Asap3FlashStartFlashJob(TAsap3Hdl hdl,TModulH
  *  \param SizeofInfo \output sizeof buffer
 
 */
-extern bool ASAP3_EXPORT CALL_CONV Asap3FlashGetJobState(TAsap3Hdl hdl,TModulHdl module,double *ScriptResult,int *isRunning,long *Progress,char *Info,unsigned long *SizeofInfo);
+extern bool ASAP3_EXPORT CALL_CONV Asap3FlashGetJobState(TAsap3Hdl hdl,TModulHdl module,double *ScriptResult,BOOL *isRunning,long *Progress,char *Info,unsigned long *SizeofInfo);
 
 //!  Stops a Flash job
 /*! \param hdl \input Asap3 handle
@@ -3150,7 +3184,7 @@ typedef long (CALLBACK* ON_EXIT)                   (TAsap3Hdl Hdl,unsigned long 
 /** @} end of CallBack Events */
 
 
-// Villa Mode
+
 extern bool ASAP3_EXPORT CALL_CONV Asap3ConnectToCANape(TAsap3Hdl *hdl, const char *VillaRelease, const char *Directory, const char *language);
 extern bool ASAP3_EXPORT CALL_CONV Asap3DisconnectFromCANape(TAsap3Hdl hdl);
 extern bool ASAP3_EXPORT CALL_CONV Asap3OpenDisplayForFile(TAsap3Hdl hdl,const char *Patternfile);
@@ -3173,10 +3207,13 @@ extern bool ASAP3_EXPORT CALL_CONV Asap3OpenDisplay ( TAsap3Hdl hdl, const char 
                                                        int         *CountModAppList,
                                                        const char **ModAppHistLabelList[],
                                                        const char **ModAppHistTextList[]);
+#ifndef MATLABAPI
+}
+#endif
 
 
 // dummy function
 extern void ASAP3_EXPORT dummy();
 
 #include <poppack.h>
-
+#endif //#ifndef MATLABAPI
